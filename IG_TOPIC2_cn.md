@@ -3,7 +3,7 @@
 ## 重要说明
 
 本文档完全基于**CAIE官方考纲（2023-2028）** 和超过20份历年Past Papers（2017-2025）编写，涵盖Paper 2（选择题）和Paper 4（结构题）的全部考点。所有内容已与以下来源交叉核对：
-
+ 
 - [xtremepape.rs](https://papers.xtremepape.rs/) —— 历年真题索引
 - [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) —— 按topic分类的试题与答案
 - [IITian Academy](https://www.iitianacademy.com/igcse-physics/) —— 按topic分类的试题与解析
