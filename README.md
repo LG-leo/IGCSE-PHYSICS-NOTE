@@ -1,7 +1,9 @@
 # IGCSE Physics 0625 – Complete Revision Notes
 
 > 基于 CAIE 2026–2028 最新考纲，融合超过 20 份历年真题（2017–2025）的高分知识点与答题模板。
-
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 ---
 
 ## 📌 项目简介
