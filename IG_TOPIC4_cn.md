@@ -3,7 +3,9 @@
 ## 完整学习版（严格对照 CAIE 2023–2025 考纲）
 
 > 本文档按照官方考纲章节顺序编写，涵盖所有 Core 和 Supplement（Extended）内容。  
-> 所有公式使用 `$$ ... $$` 格式，表格清晰，符号规范。
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 
 ---
 
