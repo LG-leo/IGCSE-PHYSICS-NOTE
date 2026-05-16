@@ -1,7 +1,9 @@
 # IGCSE Physics 0625 – AO2: 信息处理与问题解决专项笔记（完整版）
 
 > 本文档基于 CAIE 官方2026-2028考纲及超过35份历年真题（2017-2025）编写，已全面补充误差分析、异常值处理、有效数字、内插/外推等关键内容。
-
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 Topic 1~6 每个章节都有一个 Part “完整考点一览表”（用 ★ 数量表示子主题在 Paper 2 和 Paper 4 中的出现频率）。表中对应考点的内容详见各 Topic 笔记正文。
 
 
