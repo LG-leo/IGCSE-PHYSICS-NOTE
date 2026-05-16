@@ -2,7 +2,9 @@
 
 ## 完整学习笔记（2026–2028 考纲适用）
 
-> 本文档根据 2026–2028 年最新 CAIE 考纲编写，覆盖核心与拓展（Supplement）内容。所有公式均使用纯文本与 Unicode 字符显示，无需 LaTeX 渲染，可在任何 Markdown 阅读器中正常使用。
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 
 ---
 
