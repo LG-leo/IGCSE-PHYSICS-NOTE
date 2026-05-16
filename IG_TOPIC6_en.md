@@ -3,7 +3,9 @@
 ## Complete Study Notes (2026–2028 Syllabus)
 
 > This document is based on the latest CAIE 2026–2028 syllabus and covers both Core and Supplement (Extended) content. All formulas are written using plain text and Unicode characters (no LaTeX), compatible with any Markdown viewer.
-
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 ---
 
 ## 6.1 Earth and the Solar System
