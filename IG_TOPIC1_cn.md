@@ -1,5 +1,7 @@
 # IGCSE Physics 0625 – Topic 1: Motion, Forces & Energy
-
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 ## 重要说明
 
 本文档完全基于**CAIE官方考纲（2023-2028）** 和超过20份历年Past Papers（2017-2025）编写，涵盖Paper 2（选择题）和Paper 4（结构题）的全部考点。所有内容已与以下来源交叉核对：
