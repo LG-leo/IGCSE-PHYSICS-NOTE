@@ -1,5 +1,7 @@
 # IGCSE Physics 0625 – Topic 2: 热物理
-
+- 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
+- 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
+- This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
 ## 重要说明
 
 本文档遵循 **CAIE 2023–2028 考纲**，并使用超过 20 份历年真题（2017–2025）进行交叉核对，涵盖 Paper 2 和 Paper 4。所有内容都从以下权威来源检验过：
