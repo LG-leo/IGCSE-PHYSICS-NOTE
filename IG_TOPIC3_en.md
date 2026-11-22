@@ -250,6 +250,24 @@ Sources:
 
 ---
 
+## Part 2.5: Intuitive Understanding (for memory, not examined)
+
+- **Waves transfer energy, not matter**: like a "stadium wave" or waves across a wheat field – the people/wheat move only on the spot, but the wave travels forward.
+- **Transverse vs longitudinal**: shaking a rope up and down gives a transverse wave (vibration perpendicular to propagation); pushing and pulling a spring gives compressions and rarefactions – a longitudinal wave (vibration parallel to propagation).
+- **v = fλ**: like people walking through a door – the number passing per second (f) × the space each person takes (λ) = the speed of the queue (v).
+- **Refraction**: a cart wheel entering sand slows on one side first and turns; light slowing down on entering water bends towards the normal.
+- **Frequency stays the same**: during refraction the "colour"/frequency does not change; the speed and wavelength do.
+- **Diffraction**: sound has a long wavelength, so it bends around a doorway; visible light has a very short wavelength, so it travels almost in straight lines.
+- **Reflection**: mirrors and echoes both "bounce back"; angles are measured from the normal.
+- **Converging lens**: three special rays – parallel → through the focus, through the optical centre → undeviated, through the focus → parallel. Real images are inverted and can be projected; virtual images are upright and cannot.
+- **Dispersion**: a prism "splits" white light; violet bends the most and red the least.
+- **EM waves**: all have the same speed in a vacuum; the higher the frequency, the shorter the wavelength.
+- **Sound**: longitudinal, needs a medium, cannot travel through a vacuum; for echo distance `d = vt/2` – do not forget the factor of 2.
+
+![Three intuitive wave pictures](images/topic3_waves.png)
+
+> Figure: a stadium wave shows that the medium does not travel with the wave; people walking through a door help explain `v = fλ`; in the refraction diagram the incident and refracted rays lie on opposite sides of the normal, and light slows down on entering water and bends towards the normal.
+
 ## Part 3: Equations and Constants
 
 | Quantity | Equation | Unit | Condition/notes |

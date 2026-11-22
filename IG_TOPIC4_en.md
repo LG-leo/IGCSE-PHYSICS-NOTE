@@ -397,6 +397,28 @@ Sources:
 
 ---
 
+## Part 2.5: Intuitive Understanding (for memory, not examined)
+
+- **Current = water flow**: I is "how much charge flows per second"; voltage is like "water pressure"; resistance is like "pipe width and length".
+- **Conventional current vs electrons**: conventional current is the "positive-charge direction"; in a metal the electrons move the opposite way. Both describe the same current.
+- **e.m.f. vs p.d.**: e.m.f. is "the pump giving energy per coulomb"; p.d. is "the turbine taking energy per coulomb". Both are measured in volts.
+- **Series vs parallel**: series is "one road" – the current is the same everywhere; parallel is "many roads" – the p.d. is the same and the total resistance is smaller.
+- **Resistance**: a longer wire is harder to push current through; a thicker wire is easier. A hot filament has a higher resistance.
+- **I–V graphs**: a fixed resistor is a straight line; a filament lamp is a curve (hotter → harder to push current); a diode is a "one-way street".
+- **Power and energy**: `P = IV` is "energy used per second"; `E = IVt` is "total energy used"; kWh is the unit used on electricity bills.
+- **Safety**: a fuse is a "safety valve" that melts first when the current is too large; the earth wire is an "escape route" for fault current; switches and fuses go on the live wire.
+- **Electromagnetic induction**: moving a magnet in or out of a coil makes the galvanometer deflect; you need cutting of field lines or a changing flux.
+- **Left/right-hand rules**: left hand = motor (force); right hand = generator (induced current).
+- **Transformers**: each turn has the same voltage, so the turns ratio equals the voltage ratio; step-up increases voltage and decreases current; high-voltage transmission reduces `I²R` losses.
+
+![Left-hand and right-hand rules](images/topic4_hand_rules.png)
+
+> Figure: Fleming's left-hand rule is used for the force on a motor; the right-hand rule is used for the induced current in a generator.
+
+![Transformer](images/topic4_transformer.png)
+
+> Figure: each turn has the same voltage, so more turns give a larger share of the voltage; e.g. Np = 4, Ns = 10 → Vs = 2.5Vp. `Vp/Vs = Np/Ns`.
+
 ## Part 3: Equations and Constants
 
 | Quantity | Equation | Unit | Tier/notes |

@@ -276,6 +276,29 @@ Sources:
 
 ---
 
+## Part 2.5: Intuitive Understanding (for memory, not examined)
+
+- **Temperature vs internal energy**: temperature is the **average** kinetic energy per particle; internal energy is the **total** energy of all particles. A cup and a droplet of water at the same temperature have the same temperature but different internal energies.
+- **Three states**: solids "vibrate on the spot, packed together"; liquids "are close but can slide"; gases "are far apart and fly around".
+- **Brownian motion**: like "invisible people pushing a ping-pong ball"; what you see moving is the microscopic particle, not a molecule.
+- **Gas pressure**: particles keep hitting the container walls. Heating → faster and harder hits; compressing → more frequent hits.
+- **Absolute zero**: particles have **least** kinetic energy, not "no motion at all".
+- **Specific heat capacity**: water is a "large fuel tank" – it heats up and cools down slowly; sand is a "small tank" – it heats up quickly.
+- **Change of state**: the temperature stays constant because energy is used to break/form the forces between particles, not to speed them up.
+- **Evaporative cooling**: the fastest molecules escape first; the average speed of those left behind falls → the liquid cools (sweating).
+- **Conduction**: metals have "free-electron couriers"; insulators can only pass energy slowly through particle vibrations.
+- **Convection**: hot fluid becomes less dense and rises; cooler fluid sinks, setting up a circulation.
+- **Radiation**: all objects emit infrared; black, dull surfaces are good absorbers and emitters, shiny silvered surfaces are good reflectors.
+- **Vacuum flask**: the vacuum blocks conduction and convection, the silvered surfaces reduce radiation, and the stopper reduces convection and evaporation.
+
+![Change of state and evaporative cooling](images/topic2_state_evap.png)
+
+> Figure: during a change of state, energy is used to overcome the forces between particles (temperature stays constant); during evaporation, the most energetic molecules escape and the average kinetic energy of the rest falls.
+
+![Conduction and the vacuum flask](images/topic2_conduction_flask.png)
+
+> Figure: metals use free electrons to carry energy from the hot end to the cold end; a vacuum flask uses a vacuum, silvered surfaces and a stopper to block conduction/convection, radiation and convection/evaporation respectively.
+
 ## Part 3: Equations and Constants
 
 | Quantity | Equation | Unit | Tier | Condition |

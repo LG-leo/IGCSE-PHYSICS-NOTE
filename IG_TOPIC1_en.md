@@ -286,6 +286,25 @@ The syllabus requires describing how useful energy is obtained from various sour
 
 ---
 
+## Part 2.5: Intuitive Understanding (for memory, not examined)
+
+- **Distance vs displacement**: distance is the total "number of footsteps"; displacement is the straight arrow from start to finish. One lap of a 400 m track: distance 400 m, displacement 0.
+- **Speed vs velocity**: speed only says "how fast"; velocity also says "which way". In uniform circular motion the speed is constant but the direction changes, so the velocity changes.
+- **d–t vs v–t graphs**: the gradient of a distance–time graph is speed; the gradient of a speed–time graph is acceleration, and the area under it is distance. Check the axes first.
+- **Acceleration direction ≠ motion direction**: when braking, the velocity is forward but the acceleration is backward; deceleration means acceleration opposite to velocity, not simply "negative acceleration".
+- **Free fall and terminal velocity**: gravity pulls down, air resistance pushes up; as speed rises, drag increases. When they are equal, the resultant force is zero → constant velocity.
+- **Mass vs weight**: mass is "how much stuff" (kg); weight is "how hard gravity pulls" (N). On the Moon, mass is unchanged but weight is smaller.
+- **Density**: how much mass is packed into a unit volume; the displacement method is "how much water the object pushes aside".
+- **Resultant force and F = ma**: F is the single force left after all forces cancel; find the resultant force first, then the acceleration.
+- **Moments**: a longer spanner gives a bigger moment because moment = force × perpendicular distance from the pivot; use the perpendicular distance when pulling at an angle.
+- **Work and power**: work is "how much has been done" (J); power is "how fast work is done" (J/s). Carrying a box horizontally does no work.
+- **Conservation of energy**: energy does not disappear, it changes form; always state "from what form to what form".
+- **Pressure**: for the same force, a smaller area gives a greater pressure (knife edge, pin); liquid pressure depends only on depth and density, not on the shape of the container.
+
+![Work done](images/topic1_work.png)
+
+> Figure: carrying the box horizontally – force is perpendicular to displacement, so W = 0; lifting it – force and displacement are in the same direction, so W = Fd.
+
 ## Part 3: Quick Overview of Topic Frequencies
 
 | Sub‑topic | Keywords | Paper 2 frequency | Paper 4 frequency |
