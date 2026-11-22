@@ -264,10 +264,6 @@ Sources:
 - **EM waves**: all have the same speed in a vacuum; the higher the frequency, the shorter the wavelength.
 - **Sound**: longitudinal, needs a medium, cannot travel through a vacuum; for echo distance `d = vt/2` – do not forget the factor of 2.
 
-![Three intuitive wave pictures](images/topic3_waves.png)
-
-> Figure: a stadium wave shows that the medium does not travel with the wave; people walking through a door help explain `v = fλ`; in the refraction diagram the incident and refracted rays lie on opposite sides of the normal, and light slows down on entering water and bends towards the normal.
-
 ## Part 3: Equations and Constants
 
 | Quantity | Equation | Unit | Condition/notes |

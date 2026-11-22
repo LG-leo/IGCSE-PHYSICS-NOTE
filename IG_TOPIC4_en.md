@@ -415,10 +415,6 @@ Sources:
 
 > Figure: Fleming's left-hand rule is used for the force on a motor; the right-hand rule is used for the induced current in a generator.
 
-![Transformer](images/topic4_transformer.png)
-
-> Figure: each turn has the same voltage, so more turns give a larger share of the voltage; e.g. Np = 4, Ns = 10 → Vs = 2.5Vp. `Vp/Vs = Np/Ns`.
-
 ## Part 3: Equations and Constants
 
 | Quantity | Equation | Unit | Tier/notes |
