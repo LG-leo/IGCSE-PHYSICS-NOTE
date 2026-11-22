@@ -2,218 +2,368 @@
 - 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
 - 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
 - This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
+
 ## Important Notes
 
-This document follows the **CAIE syllabus for 2023–2028** and has been cross‑checked with more than 20 past papers (2017–2025) covering Paper 2 and Paper 4. All content is aligned with the following sources:
+This document follows the **CAIE 0625 Syllabus for 2026, 2027 and 2028** (version 2, published December 2025) point by point, and adds exam keywords and common traps based on Paper 2 and Paper 4 questions.
 
+Points to note compared with older resources:
+
+- **No specific latent heat calculation**: `E = mL` is not required, nor are the values of `L_f` and `L_v`; melting and boiling are examined **qualitatively** only.
+- **No thermal capacity** (`C = mc`); only specific heat capacity `c = E/(mΔθ)` remains.
+- **Gas laws: only `pV = constant`** (Supplement); `p/T` and `V/T` are not required.
+- Older resources often label "consequences of thermal energy transfer" as 2.4; in the current syllabus it is **2.3.4**, part of 2.3.
+
+Sources:
+
+- [CAIE 0625 Syllabus 2026–2028 (official PDF)](https://www.cambridgeinternational.org/Images/697209-2026-2028-syllabus.pdf)
 - [xtremepape.rs](https://papers.xtremepape.rs/) – past paper index
-- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) – topic‑wise questions and answers
-- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) – topic‑wise questions
-- [Sparkl](https://www.sparkl.me/past-papers) – past papers online
-
-Topic 2 is the thermal physics section of IGCSE Physics. It covers four sub‑topics: kinetic particle model, thermal properties & temperature, transfer of thermal energy, and consequences of thermal energy transfer. This topic appears every year in both Paper 2 and Paper 4.
+- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) – topic-wise questions and answers
+- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) – topic-wise questions
+- [IGCSEPhysics.com.my](https://igcsephysics.com.my/topics/thermal-physics) – syllabus-aligned notes
+- [CAIE 0625/42 May/June 2023 mark scheme](https://files.pastopic.com/cambridge/0625/0625_s23_ms_42.pdf) and [Principal Examiner Report](https://files.pastopic.com/cambridge/0625/0625_s23_er.pdf) – checked for the official wording on absolute zero
 
 ---
 
 ## Part 1: Syllabus Structure
 
-| No. | Sub‑topic | Chinese |
-|-----|-----------|---------|
-| 2.1 | Kinetic particle model of matter | 物质的分子运动模型 |
-| 2.2 | Thermal properties and temperature | 热性质和温度 |
-| 2.3 | Transfer of thermal energy | 热传递 |
-| 2.4 | Consequences of thermal energy transfer | 热传递的后果 |
+| No. | Content | Chinese | Tier |
+|-----|---------|---------|------|
+| 2.1 | Kinetic particle model of matter | 物质的粒子模型 | — |
+| 2.1.1 | States of matter | 三态 | Core |
+| 2.1.2 | Particle model | 粒子模型 | Core + Supplement |
+| 2.1.3 | Gases and the absolute scale of temperature | 气体与绝对温标 | Core + Supplement |
+| 2.2 | Thermal properties and temperature | 热性质与温度 | — |
+| 2.2.1 | Thermal expansion of solids, liquids and gases | 热膨胀 | Core + Supplement |
+| 2.2.2 | Specific heat capacity | 比热容 | Core + Supplement |
+| 2.2.3 | Melting, boiling and evaporation | 熔化、沸腾与蒸发 | Core + Supplement |
+| 2.3 | Transfer of thermal energy | 热传递 | — |
+| 2.3.1 | Conduction | 传导 | Core + Supplement |
+| 2.3.2 | Convection | 对流 | Core |
+| 2.3.3 | Radiation | 辐射 | Core + Supplement |
+| 2.3.4 | Consequences of thermal energy transfer | 热传递的后果 | Core + Supplement |
 
-Extended candidates (Paper 4) must also master the extended parts of 2.2 (specific heat capacity, latent heat calculations) and 2.1 (gas pressure‑temperature‑volume relationships).
+> Memory hook: **particles in three states (2.1) → expand, absorb energy, change state (2.2) → conduction, convection, radiation and their consequences (2.3)**.
 
 ---
 
-## Part 2: Single Examination Points (Topic by Topic)
+## Part 2: Knowledge Points
 
 ### 2.1 Kinetic Particle Model of Matter
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| States of matter | solid, liquid, gas, fixed positions, random motion | identify arrangement | explain why gas is compressible |
-| Intermolecular forces | strong, weak, very weak | distinguish | explain state changes |
-| Brownian motion | Brownian motion, smoke particles, random collision | define | explain evidence for particle motion |
-| Gas pressure | pressure, collisions, walls, force, area | explain origin | describe pressure change with temperature/volume |
-| Temperature & kinetic energy | temperature, average kinetic energy | relate | explain internal energy change on heating |
+#### 2.1.1 States of Matter (Core)
 
-**Answer key**:
+| State | Arrangement | Separation | Motion | Intermolecular forces | Shape / volume |
+|-------|-------------|------------|--------|-----------------------|----------------|
+| Solid | regular | very small | **vibrate** about fixed positions | very strong | fixed shape, fixed volume |
+| Liquid | irregular | small | can slide; random motion within a limited range | weaker | fixed volume, no fixed shape |
+| Gas | random | very large | high-speed random motion, fills container | very weak (almost none) | no fixed shape or volume |
 
-**Particle model for the three states**:
+- **Names of changes of state**: melting, freezing/solidification, boiling, evaporation, condensation.
+- The syllabus explicitly **does not require** direct solid ↔ gas changes (sublimation / deposition).
+- The three states can be represented using **simple particle diagrams**.
 
-| State | Intermolecular forces | Particle motion | Arrangement | Kinetic energy level |
-|-------|----------------------|-----------------|-------------|----------------------|
-| Solid | very strong | vibrate about fixed positions | regular | low |
-| Liquid | weaker | random motion within limited range, can slide past each other | irregular | medium |
-| Gas | very weak (almost none) | high‑speed random motion | no fixed arrangement, fills container | very high |
+**Common traps**
+- Particles in a solid are **still vibrating** – they are not stationary.
+- Gases are easy to compress because the particles are **far apart**, not because particles shrink.
+- Liquids have a fixed volume but no fixed shape; gases have neither.
 
-- **Why gases can be compressed but liquids cannot?** Gas molecules are much farther apart than liquid molecules, with very weak intermolecular forces. Applying pressure pushes them closer together, reducing volume. Liquid molecules have little empty space and stronger forces, so they cannot be compressed.
-- **Why does gas exert pressure on container walls?** Gas molecules are in constant random motion. They collide with the walls; each collision exerts a small force. Many collisions per second produce a total force. Pressure = total force / area.
-- **Changes when heated**:
-  - Particles gain kinetic energy.
-  - Their speed increases; solids vibrate more vigorously, liquids/gases move faster.
-  - Average separation increases (thermal expansion).
-  - For a gas, collisions with walls become more frequent and more forceful → pressure increases.
-- **Absolute zero (Extended)**: –273 °C (0 K). The lowest possible temperature, at which particles have the **least kinetic energy**. (Note: particles do not stop moving entirely; quantum theory shows they retain zero‑point energy, but the syllabus defines it as “least kinetic energy”.)
-- **Gas laws (Extended)**:
-  - Constant temperature: `pV = constant` (Boyle’s law)
-  - Constant volume: `p/T = constant` (Pressure law)
-  - Constant pressure: `V/T = constant` (Charles’s law)
+#### 2.1.2 Particle Model (Core + Supplement)
 
-**Common trap**: Temperature is a measure of **average** kinetic energy, not total internal energy. A cup of hot water and a droplet of hot water at the same temperature have the same average kinetic energy per particle, but the cup contains more particles → higher total internal energy.
+**Core**
+- **Temperature** is a measure of the **average kinetic energy** of the particles; the higher the temperature, the faster they move.
+- **Absolute zero**: −273 °C (0 K), the lowest possible temperature; particles have the **least kinetic energy**.
+  - **Exam wording (official)**: `particles have the least kinetic energy` (2023/42 mark scheme, B1); the same question also awards a separate B1 for `lowest possible temperature`.
+  - The 2023 examiner report notes that correct candidates often wrote `particles not moving / do not move`, and this **did not cost marks**; the safest wording is still the mark-scheme phrase.
+  - **Strict physics (beyond the 0625 syllabus – do not write this in answers)**: at 0 K particles are not "completely stopped"; there is **zero-point energy / zero-point vibration** (the quantum minimum energy, which cannot be removed). So "least kinetic energy" is correct, but do not write "particles have no energy at all" (zero-point energy and potential energy remain).
+- **Gas pressure** explained with particles: gas particles move randomly and **collide with the container walls**; each collision exerts a small force. Many collisions produce a total force, and pressure = force / area.
+  - Temperature increases at constant volume → particles move faster → collisions are **more frequent and more forceful** → pressure increases.
+  - Volume decreases at constant temperature → collisions are **more frequent** (speed unchanged) → pressure increases.
+- **Brownian motion**: microscopic particles suspended in a liquid or gas (e.g. smoke particles, pollen grains) move randomly.
+  - Cause: **random, uneven collisions** with the surrounding molecules/atoms.
+  - Significance: Brownian motion is **evidence for the kinetic particle model**.
+  - Note: what is seen moving is the **microscopic particle**, not a molecule; the particle is much larger than a molecule.
+
+**Supplement**
+- The **forces and distances between particles** (atoms, molecules, ions, electrons) and their motion determine the properties of solids, liquids and gases.
+- Gas pressure can be described as particles colliding with a surface, creating a **force per unit area**.
+- Use the terms precisely: **atoms / molecules** are types of particle; **microscopic particles** are the suspended particles (e.g. smoke).
+
+**Common traps**
+- Temperature measures **average** kinetic energy, not total internal energy (a cup and a droplet of water at the same temperature have the same average KE, but the cup has more internal energy because it has more particles).
+- Brownian motion is **not** molecular motion itself – it is **indirect evidence** for it.
+- At 0 K particles have **least** kinetic energy; `not moving` is usually accepted, but do not write "no energy at all" (zero-point energy and potential energy remain).
+
+#### 2.1.3 Gases and the Absolute Temperature Scale (Core + Supplement)
+
+**Core**
+- Temperature conversion: `T(K) = θ(°C) + 273`; a temperature **interval** is the same in K and °C (a rise of 10 °C = a rise of 10 K).
+- Qualitative descriptions (fixed mass of gas):
+  - **Constant volume**: temperature increases → pressure increases (particles move faster; collisions more frequent and more forceful).
+  - **Constant temperature**: volume decreases → pressure increases (collisions more frequent; particle speed unchanged).
+
+**Supplement**
+- **Boyle's law**: for a fixed mass of gas at constant temperature, `pV = constant`, i.e. `p₁V₁ = p₂V₂`.
+- Graph: `p–V` is a curve; `p–1/V` is a straight line through the origin.
+
+**Common traps**
+- Remember +273 when converting temperature; but `pV = constant` assumes the temperature is unchanged, so no temperature value is substituted.
+- During isothermal compression, the **average speed of the particles is unchanged**; what changes is the **collision frequency**.
+- When using `p₁V₁ = p₂V₂`, the pressure units must match each other and the volume units must match each other (e.g. kPa and litres).
 
 ---
 
 ### 2.2 Thermal Properties and Temperature
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Temperature measurement | thermometer, physical property, calibration, fixed points | identify property that varies with temperature | describe calibration procedure |
-| Thermal expansion | thermal expansion, expansion joints, bimetallic strip | explain phenomenon | describe applications/problems |
-| Specific heat capacity | `E = mcΔθ`, unit J/(kg·°C) | recognise formula | calculate energy for heating |
-| Thermal capacity | `C = mc`, unit J/°C | define | calculate thermal capacity |
-| Latent heat | `E = mL`, fusion, vaporisation | define | calculate energy for change of state |
-| Evaporation & boiling | evaporation, boiling, cooling effect | explain cooling | distinguish evaporation from boiling |
+#### 2.2.1 Thermal Expansion (Core + Supplement)
 
-**Answer key**:
+- **Core**: describe qualitatively the thermal expansion of solids, liquids and gases **at constant pressure**; describe everyday applications and consequences.
+- Mechanism: heating → particles vibrate with greater amplitude → average separation increases → volume increases.
+- Order: **gases expand most, liquids next, solids least** (Supplement requires a particle explanation).
+- Applications: **bimetallic strip** (two metals expand by different amounts → bends) used in thermostats; thermometers.
+- Consequences: **expansion gaps** in bridges, gaps in railway tracks, sagging power lines in summer.
 
-**Thermometer principle**:
-- Uses a physical property that changes with temperature (e.g., volume expansion of a liquid, electrical resistance, voltage of a thermocouple, pressure of a gas).
-- **Calibration**: Mark known fixed points (e.g., melting point of pure ice at 0 °C, boiling point of pure water at 100 °C at standard atmospheric pressure), then divide the interval into equal divisions.
+**Common traps**
+- Expansion is **not** particles getting bigger – it is the **average separation** increasing.
+- Gases expand most because their particles are farthest apart with the weakest forces.
+- Thermal expansion is a **volume** change; only a qualitative treatment is required.
 
-**Thermal expansion**:
-- **Mechanism**: Heating increases particle kinetic energy, amplitude of vibration increases, average separation increases → volume expands.
-- Solids expand least, gases expand most (weakest interparticle forces).
-- **Application**: Bimetallic strip (two different metals bonded together; they expand by different amounts when heated → bends). Used in thermostats.
-- **Problem**: Expansion joints in bridges, gaps in railway tracks prevent buckling.
+#### 2.2.2 Specific Heat Capacity (Core + Supplement)
 
-**Specific heat capacity (Extended)**:
-- **Definition**: The energy required to raise the temperature of 1 kg of a substance by 1 °C. Unit: J/(kg·°C) or J/(kg·K).
-- **Formula**: `E = m × c × Δθ`
-- Water: c = 4200 J/(kg·°C) (high – needs a lot of energy to warm up, good coolant).
+**Core**
+- A rise in the temperature of an object **increases its internal energy**.
 
-**Thermal capacity**:
-- **Definition**: The energy required to raise the temperature of an **entire object** by 1 °C.
-- Formula: `thermal capacity = m × c`, unit J/°C.
-- Depends on both mass and material.
+**Supplement**
+- A temperature rise means an increase in the **average kinetic energy** of the particles (internal energy also includes potential energy).
+- **Specific heat capacity (c)**: the energy required to raise the temperature of **1 kg** of a substance by **1 °C**.
+  - Equation: `c = E / (mΔθ)`, equivalent to `E = m c Δθ`.
+  - Unit: `J/(kg·°C)` (or `J/(kg·K)`).
+  - Water: `c = 4200 J/(kg·°C)` – very high, so it heats up and cools down slowly; a good coolant and heat store.
+- **Experiments to measure specific heat capacity**
+  - Solid: a metal block with holes for an electrical heater and a thermometer; measure mass with a balance; heat for a measured time and record p.d. and current (`E = IVt`) or use a joulemeter; insulate the block; measure the temperature rise; `c = E/(mΔθ)`.
+  - Liquid: an electrical heater immersed in the liquid, stirred to keep the temperature uniform, insulated container; same procedure.
+  - Key points: **reduce heat loss** (lagging, lid), **uniform temperature** (stirring), mass in **kg**, Δθ = **temperature change**.
 
-**Latent heat (Extended)**:
-- **Definition**: The energy absorbed or released **per unit mass** of a substance when it changes state at constant temperature.
-- For fusion (melting/solidifying): `E = m × L_f`
-- For vaporisation (boiling/condensing): `E = m × L_v`
+**Common traps**
+- Δθ is the **change** in temperature (final − initial), not a single temperature.
+- Convert mass to **kg** (500 g = 0.50 kg), otherwise the answer is out by a factor of 1000.
+- The unit `J/kg` or `J/°C` is wrong; it must be `J/(kg·°C)`.
+- With heat loss, the measured **c is too high** (less energy than calculated actually raised the temperature).
+- If the question asks for the final temperature, add the initial temperature after finding Δθ.
+- Core candidates only need "temperature rise → internal energy increases"; the `c` calculation is Supplement.
 
-**Internal energy**:
-- Sum of all kinetic energy (due to particle motion) and potential energy (due to interparticle forces) of all particles.
-- When heated without change of state → KE increases → temperature rises.
-- During change of state → temperature constant; energy used to change PE (breaking/forming bonds).
+#### 2.2.3 Melting, Boiling and Evaporation (Core + Supplement)
 
-**Evaporation**:
-- **Definition**: The process in which the **most energetic molecules** at the surface of a liquid escape into the vapour phase (occurs at any temperature).
-- **Cooling effect**: The most energetic molecules leave first, so the average kinetic energy of the remaining molecules decreases → temperature of the liquid falls.
-- Factors increasing evaporation: higher temperature, larger surface area, air movement over surface, lower humidity.
+**Core**
+- **Melting/boiling**: energy is supplied continuously but the **temperature does not change**; the energy is used to overcome the forces between particles and change their arrangement and separation (increasing potential energy), not their average kinetic energy.
+- Melting point of water **0 °C**, boiling point **100 °C** (at standard atmospheric pressure).
+- **Condensation**: gas particles lose energy, move less freely and come closer together → liquid.
+- **Solidification**: liquid particles lose energy → arrange into fixed positions and **continue to vibrate**.
+- **Evaporation**: the **more energetic particles at the surface** escape to become gas; it occurs at **any temperature**.
+- Evaporation causes **cooling**: the most energetic particles leave first, so the average kinetic energy of the remaining particles decreases → the liquid cools.
 
-**Common traps**:
-- `E = mcΔθ` only when there is **no change of state**. During melting or boiling, use `E = mL`.
-- Always check units: mass in kg, temperature change in °C (or K, same magnitude).
+**Supplement**
+- **Boiling vs evaporation**:
+
+| Boiling | Evaporation |
+|---------|-------------|
+| occurs **throughout** the liquid and at the surface | occurs only at the **surface** |
+| occurs at the **boiling point** | occurs at **any temperature** |
+| rapid, bubbles form | slow, no bubbles |
+
+- Factors increasing the rate of evaporation: **higher temperature, larger surface area, greater air movement over the surface**.
+- Explaining cooling of an object in contact with an evaporating liquid: evaporation removes energy from the liquid (and from the object), so the liquid and object cool; evaporation also lowers the liquid's own temperature.
+
+**Heating curve (temperature–time graph)**
+- Sloping sections: temperature changes – think of `E = mcΔθ` (no latent heat calculation required).
+- **Horizontal sections (plateaus)**: change of state at constant temperature; energy changes the potential energy of the particles.
+  - The boiling plateau is usually longer than the melting plateau (more energy needed for vaporisation) – qualitative understanding only.
+
+> ⚠️ The current 0625 syllabus does **not** require `E = mL` calculations or values of `L_f` / `L_v`; only the qualitative explanation of constant temperature is examined.
+
+**Common traps**
+- Energy is still being transferred during a change of state; only the temperature is constant.
+- Do not say particles in a solid stop moving.
+- "Water at 100 °C always boils" is wrong – it must be **standard atmospheric pressure**.
+- Evaporation does not require the boiling point; evaporation and boiling are different processes.
+- Explaining evaporative cooling must refer to the **decrease in average kinetic energy**, not just "heat is lost".
 
 ---
 
 ### 2.3 Transfer of Thermal Energy
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Conduction | conduction, metals, free electrons, insulators | identify mechanism | explain why metals are good conductors |
-| Convection | convection, fluid, density, convection current | recognise where convection occurs | explain mechanism |
-| Radiation | radiation, infrared, black body, emitter, absorber | identify radiation | explain effect of surface colour |
-| Vacuum flask | vacuum flask, silvered surfaces, insulator | recognise parts and functions | explain how it reduces heat loss |
+#### 2.3.1 Conduction (Core + Supplement)
 
-**Answer key**:
+**Core**
+- Describe experiments comparing good and bad thermal conductors/insulators: e.g. wax melting along metal and plastic rods, or comparing cooling rates of hot water wrapped in different materials.
 
-**Conduction**:
-- **All solids**: Thermal energy is transferred by **atomic/molecular lattice vibrations**. Particles at the hot end vibrate more vigorously and pass vibrations to neighbouring particles.
-- **Extra mechanism in metals**: In addition to lattice vibrations, metals have many **free electrons** (delocalised electrons) that can move freely and carry kinetic energy rapidly from the hot end to the cold end. This makes metals much better conductors than non‑metals.
-- **Insulators**: No free electrons; only slow lattice vibrations → poor thermal conductors. Examples: air, plastic, wood, fibreglass.
+**Supplement**
+- In **all solids**, thermal energy is transferred by **lattice vibrations**: particles at the hot end vibrate more vigorously and pass the vibrations to neighbouring particles.
+- **Metals** also have **free (delocalised) electrons**, which move freely and carry kinetic energy rapidly from the hot end to the cold end → metals are good conductors.
+- **Gases and most liquids** are poor conductors: particles are far apart and collisions transfer energy inefficiently (gases are the worst).
+- Among solids: good conductors (metals) > poor conductors (e.g. glass, plastic) > thermal insulators; insulators still conduct slowly.
 
-**Convection**:
-- Occurs only in **fluids (liquids and gases)**.
+**Common traps**
+- Explaining metal conduction must mention **free electrons**; "particles collide" alone is not enough for full marks.
+- An insulator does not stop conduction completely – it conducts slowly.
+- Conduction transfers energy through **particle vibrations**, with **no net mass flow** (contrast with convection). Note: particles are not stationary – conduction in gases works through the random motion and collisions of molecules; there is simply no bulk flow.
+  - Under extreme conditions (mantle creep, plasmas, superfluid helium, etc.) **bulk migration** can occur, but the transfer is then **convection/flow**, not conduction; all of this is beyond the 0625 syllabus.
+
+**Extension (beyond the syllabus – for understanding only)**
+- Very high pressure can **metallise** an insulator (e.g. metallic hydrogen at a few hundred GPa): the cause is overlap of electron wavefunctions and the appearance of free electrons, not bulk migration of atoms.
+- High pressure can also induce **superconductivity** (hydrogen-rich compounds reach `T_c` above 200 K at ~150–200 GPa, e.g. H₃S, LaH₁₀); this is **electron pairing** producing zero resistance, not particle migration.
+- In metals, heat and charge are carried by the same free electrons (Wiedemann–Franz: `κ/σ = LT`); but in the superconducting state the electronic thermal conductivity can fall, so "zero resistance = excellent thermal conductor" is not always true.
+- When extreme bulk migration occurs (mantle convection, plasma flow, superfluid helium), the transfer mechanism is **convection/flow**, not conduction.
+
+#### 2.3.2 Convection (Core)
+
+- Convection is an important method of thermal energy transfer in **liquids and gases**; at normal temperature and pressure it **cannot occur in solids** (under extreme temperature/pressure, solids can creep slowly – see the extension note in 2.3.1).
 - Mechanism:
-  1. Fluid is heated → particles gain KE → expand → density decreases.
-  2. Hot (less dense) fluid rises.
-  3. Cool (denser) fluid sinks to replace it, then gets heated.
-  4. A **convection current** is set up, transferring thermal energy throughout the fluid.
-- Examples: room heating by radiators, boiling water, weather systems.
+  1. The fluid is heated → particles gain kinetic energy → the fluid expands → **density decreases**.
+  2. The less dense hot fluid **rises**.
+  3. The denser cooler fluid **sinks** to replace it and is then heated.
+  4. A **convection current** is set up.
+- Experiments: potassium permanganate crystal in heated water, convection tube, smoke box.
+- Applications: radiators heating a room, hot water circulation, sea/land breezes.
 
-**Radiation**:
-- Thermal energy transferred by **infrared waves**; does **not require a medium** (can travel through vacuum).
-- **Surface effects**:
-  - Dark, rough surfaces: good absorbers and good emitters.
-  - Light, shiny, silvered surfaces: poor absorbers, poor emitters, good reflectors.
-- The Sun’s heat reaches Earth by radiation (through vacuum).
+**Common traps**
+- "Hot air rises" should be written as "the heated fluid **expands, its density decreases**, and it rises".
+- Convection requires a **fluid** and (normally) gravity; it cannot occur in a vacuum.
+- Convection transfers energy by **bulk movement** of the fluid, not by particle vibration.
 
-**Vacuum flask**:
+#### 2.3.3 Radiation (Core + Supplement)
 
-| Part | Function |
-|------|----------|
-| Vacuum between walls | Prevents conduction and convection (no particles) |
-| Silvered surfaces | Reduce radiation (reflect infrared back) |
-| Cork / lid | Reduce convection, prevent vapour escape |
+**Core**
+- Thermal radiation is **infrared radiation**; **all objects** emit it.
+- Radiation **does not require a medium** – it can travel through a vacuum (the Sun's energy reaches the Earth).
+- Effect of surface colour and texture:
+  - **Black, dull** surfaces: good absorbers and good emitters.
+  - **White/light, shiny** surfaces: poor absorbers and poor emitters, good reflectors.
 
-**Common traps**: In Paper 2, when asked “main method of heat transfer”:
-- Through solid metal → conduction
-- Through fluid (bulk movement) → convection
-- Through vacuum → radiation
-- Through trapped air (still) → mainly conduction (air is poor conductor) but convection is limited if air is trapped.
+**Supplement**
+- An object at **constant temperature** transfers energy away at the **same rate** as it receives energy.
+- If the rate of receiving energy is **less** than the rate of transferring it away → temperature falls; if **greater** → temperature rises.
+- The Earth's temperature depends on the balance between **incoming solar radiation** and **radiation emitted from the Earth's surface**, affected by clouds, greenhouse gases, surface reflectivity (colour/albedo) and surface area.
+- Experiments: **Leslie's cube** or black/silver cans with thermometers to compare emission/absorption; an infrared lamp to compare heating of different surfaces.
+- The rate of emission also depends on the **surface temperature** (higher → faster) and the **surface area** (larger → faster).
+
+**Common traps**
+- "Black absorbs heat" should be specific: it absorbs **infrared radiation**; white/silver **reflects** it.
+- All objects emit radiation, including "cold" ones; the difference is the direction of net exchange.
+- The vacuum in a vacuum flask does **not** stop radiation – it stops conduction and convection.
+- The rougher and blacker the surface, the better it both emits and absorbs (good emitters are good absorbers).
+
+#### 2.3.4 Consequences of Thermal Energy Transfer (Core + Supplement)
+
+**Core**
+- Explain everyday applications and consequences, e.g.:
+  - **Kitchen pans**: the base is metal (good conductor, transfers energy quickly to the food); the handle is plastic/wood (insulator, prevents burning).
+  - **Heating a room with a radiator**: air is heated, rises, and cooler air sinks, forming a **convection current**.
+- **Vacuum flask** as a combined application:
+  - **Vacuum** between the double walls: prevents conduction and convection.
+  - **Silvered surfaces**: reflect infrared radiation, reducing radiation.
+  - **Stopper/lid**: reduces convection and evaporation.
+
+**Supplement**
+- Analyse complex situations where **more than one type of transfer** is significant:
+  - **Burning wood or coal**: flames heat surroundings by **radiation**; hot gases rise by **convection**; heat travels along metal by **conduction**.
+  - **Radiator in a car**: heat is conducted through the metal to the coolant; the coolant circulates by **convection**; the radiator transfers energy to the air by **radiation** and convection.
+
+**Common traps**
+- "It is insulated" is not enough – state which structure blocks which method of transfer.
+- Thermal energy always flows from **hot to cold**; do not say "cold flows in".
+- Often **all three methods** occur together; when a question says "more than one type", describe each one.
 
 ---
 
-### 2.4 Consequences of Thermal Energy Transfer
+## Part 3: Equations and Constants
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Consequences | expansion, evaporation, boiling, change of state | identify | explain |
-| Evaporation | cooling effect, surface, temperature | explain cooling | list factors affecting rate |
+| Quantity | Equation | Unit | Tier | Condition |
+|----------|----------|------|------|-----------|
+| Celsius–kelvin conversion | `T(K) = θ(°C) + 273` | K, °C | Core | 1 K interval = 1 °C interval |
+| Specific heat capacity | `c = E/(mΔθ)` (i.e. `E = mcΔθ`) | J/(kg·°C) | Supplement | no change of state |
+| Boyle's law | `pV = constant` (`p₁V₁ = p₂V₂`) | Pa·m³ etc. | Supplement | fixed mass, constant temperature |
 
-**Answer key**:
+Constants: specific heat capacity of water `4200 J/(kg·°C)`; melting point of water `0 °C`, boiling point `100 °C` (standard atmospheric pressure).
 
-- General consequences of heating: temperature rise (increase in internal energy), expansion, change of state (melting, boiling, evaporation, freezing, condensation).
-- **Evaporation vs boiling**:
-  - Evaporation occurs at any temperature, only from the surface, slower.
-  - Boiling occurs at a fixed boiling point, throughout the liquid, faster.
+> Note: there is **no** `E = mL`, no `C = mc`, no `p/T` and no `V/T` in this syllabus. Questions using them come from other boards or older resources.
 
 ---
 
-## Part 3: Quick Overview of Topic Frequencies
+## Part 4: Common Traps
 
-| Sub‑topic | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| 2.1 Particle model | states, Brownian motion, pressure, temperature, average KE | ★★★★★ | ★★★★ |
-| 2.2 Thermal properties | thermometer, expansion, specific heat capacity, latent heat | ★★★★ | ★★★★★ |
-| 2.3 Heat transfer | conduction, convection, radiation, vacuum flask | ★★★★★ | ★★★★★ |
-| 2.4 Consequences | evaporation, cooling effect | ★★★ | ★★★ |
+| Wrong statement | Correct understanding |
+|-----------------|------------------------|
+| High temperature = high internal energy | Temperature measures **average** KE; internal energy also depends on the number of particles and potential energy |
+| At 0 K particles stop | Kinetic energy is **least**, not zero |
+| Brownian motion is molecular motion | It is the random motion of **microscopic particles**, providing **evidence** for molecular motion |
+| Compressing a gas makes particles faster | At constant temperature, only the **collision frequency** increases; speed is unchanged |
+| Thermal expansion means particles get bigger | The **average separation** increases |
+| Gases expand least | Gases expand **most**; solids least |
+| Unit of specific heat capacity is J/kg | It is `J/(kg·°C)` |
+| Temperature rises during a change of state | Temperature is **constant**; energy changes potential energy |
+| Evaporation only happens at the boiling point | It happens at **any temperature**, only at the **surface** |
+| Evaporative cooling = heat escapes | The **average kinetic energy** of the remaining particles decreases |
+| Metal feels cold because it is colder | Same temperature; metal **conducts** heat away from the hand quickly |
+| The vacuum in a flask blocks radiation | The vacuum blocks **conduction and convection**; silvered surfaces reduce radiation |
+| Convection can occur in solids | Only in **fluids**, driven by density differences |
+| Black surfaces only absorb | Black dull surfaces are good **absorbers and emitters** |
 
 ---
 
-## Part 4: Keyword Glossary
+## Part 5: Paper 4 Answer Templates
+
+- **Brownian motion**: Smoke particles are hit unevenly by air molecules moving randomly, so they move in a random path. This is evidence for the kinetic particle model of matter.
+- **Gas pressure**: Gas particles move randomly and collide with the container walls, exerting a force. Pressure is force per unit area; heating makes the particles move faster, so collisions become more frequent and more forceful.
+- **Thermal expansion**: Heating increases the kinetic energy of the particles, so they vibrate with greater amplitude and the average separation increases, causing expansion.
+- **Specific heat capacity experiment**: Use an insulated container, measure the mass with a balance, heat with an electrical heater of known power for a measured time, and measure the temperature rise with a thermometer. `E = Pt = IVt`, then `c = E/(mΔθ)`. Lagging reduces heat loss to the surroundings.
+- **Change of state**: Energy supplied is used to overcome the forces between particles (increasing their potential energy), not to increase their average kinetic energy, so the temperature stays constant.
+- **Evaporative cooling**: The most energetic particles escape from the surface, so the average kinetic energy of the remaining particles decreases and the temperature of the liquid falls.
+- **Conduction in metals**: Metals contain free electrons that move freely and transfer kinetic energy rapidly from the hot end to the cold end, in addition to lattice vibrations.
+- **Convection**: The fluid near the heat source expands, so its density decreases and it rises. Cooler, denser fluid sinks to replace it, setting up a convection current.
+- **Radiation**: All objects emit infrared radiation. Black, dull surfaces are good absorbers and emitters; shiny, silvered surfaces are poor absorbers and emitters but good reflectors.
+- **Vacuum flask**: The vacuum between the walls prevents conduction and convection; the silvered surfaces reflect infrared radiation; the stopper reduces convection and evaporation.
+- **Thermal balance**: At constant temperature, the object transfers energy away at the same rate as it receives energy.
+
+---
+
+## Part 6: Keyword Glossary
 
 | Keyword | Definition |
 |---------|------------|
-| **Kinetic particle model** | all matter is made of tiny particles in continuous motion |
-| **Brownian motion** | random motion of microscopic particles caused by collisions with faster‑moving molecules of the surrounding fluid |
-| **Pressure** | force per unit area, `P = F/A` |
-| **Temperature** | measure of the average kinetic energy of particles |
-| **Absolute zero** | –273 °C (0 K); the lowest possible temperature, where particles have the least kinetic energy |
-| **Thermal expansion** | increase in volume when heated, due to increased particle separation |
-| **Specific heat capacity** | energy required to raise the temperature of 1 kg of a substance by 1 °C |
-| **Thermal capacity** | energy required to raise the temperature of an entire object by 1 °C; `C = m c`, unit J/°C |
-| **Latent heat** | energy absorbed or released **per unit mass** when a substance changes state at constant temperature |
-| **Conduction** | transfer of thermal energy by particle collisions; in metals also by free electrons |
-| **Convection** | transfer of thermal energy in fluids by the movement of hot (less dense) fluid rising and cold fluid sinking |
-| **Radiation** | transfer of thermal energy by infrared waves; does not need a medium |
-| **Evaporation** | escape of the most energetic molecules from the surface of a liquid at any temperature |
-| **Free electrons** | delocalised electrons in metals that can move freely and carry thermal/electrical energy |
-| **Bimetallic strip** | two different metals bonded together; bends when heated because they expand differently |
-| **Vacuum flask** | container that reduces heat loss by conduction, convection and radiation |
+| **Kinetic particle model** | all matter is made of tiny particles in continuous motion; their motion is related to temperature |
+| **Brownian motion** | random motion of microscopic particles caused by random collisions with surrounding molecules; evidence for the particle model |
+| **Absolute zero** | −273 °C (0 K); the lowest possible temperature, where particles have the least kinetic energy |
 | **Internal energy** | total kinetic + potential energy of all particles in an object |
+| **Thermal expansion** | increase in volume when heated, due to increased average separation of particles |
+| **Specific heat capacity** | energy required to raise the temperature of 1 kg of a substance by 1 °C; `c = E/(mΔθ)` |
+| **Melting / boiling point** | at standard atmospheric pressure, 0 °C and 100 °C for water |
+| **Condensation / solidification** | gas → liquid / liquid → solid; particles lose energy and their arrangement changes |
+| **Evaporation** | escape of more energetic particles from the surface of a liquid at any temperature |
+| **Conduction** | transfer of thermal energy by particle vibrations; in metals also by free electrons |
+| **Convection** | transfer of thermal energy in fluids by bulk movement due to density differences |
+| **Radiation** | transfer of thermal energy by infrared radiation; does not need a medium |
+| **Infrared radiation** | the form of thermal radiation; emitted by all objects |
+| **Emitter / absorber** | black, dull surfaces are good emitters and absorbers |
+| **Insulator** | material that conducts thermal energy very slowly, e.g. plastic, wood, air |
+| **Convection current** | circulation set up by hot fluid rising and cold fluid sinking |
+| **Bimetallic strip** | two different metals bonded together; bends when heated because they expand differently |
+| **Vacuum flask** | container that reduces conduction, convection and radiation using a vacuum, silvered surfaces and a stopper |
+| **Thermal equilibrium** | object absorbs and emits energy at equal rates, so its temperature is constant |
+
+---
+
+## Part 7: Final Self-check
+
+1. Can you draw particle diagrams for solids, liquids and gases and state the differences?
+2. Can you explain gas pressure and its changes using particle collisions?
+3. Can you give the full explanation of Brownian motion (what moves, why, what it proves)?
+4. What is absolute zero in °C and K? What happens to the particles?
+5. Can you use `T(K) = θ + 273` and explain the interval relationship?
+6. Do you know the conditions, units and graph for `pV = constant`?
+7. Can you explain thermal expansion with particles and give three applications?
+8. Can you rearrange `c = E/(mΔθ)`, state its unit and explain how to reduce errors in the experiment?
+9. Why is temperature constant during melting/boiling? Why does evaporation cause cooling?
+10. What are the mechanisms, conditions and factors for conduction, convection and radiation?
+11. Can you explain what each part of a vacuum flask blocks?
+12. Can you analyse multiple transfer methods in a kitchen pan, a radiator, burning fuel and a car radiator?
