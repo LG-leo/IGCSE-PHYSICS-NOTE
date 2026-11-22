@@ -1,323 +1,323 @@
-# IGCSE Physics 0625 – Topic 1: Motion, Forces & Energy
+# IGCSE Physics 0625 – Topic 1: Motion, Forces and Energy（运动、力与能量）
 - 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
 - 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
 - This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
+
 ## 重要说明
 
-本文档完全基于**CAIE官方考纲（2023-2028）** 和超过20份历年Past Papers（2017-2025）编写，涵盖Paper 2（选择题）和Paper 4（结构题）的全部考点。所有内容已与以下来源交叉核对：
+本文档依据 **CAIE 0625 Syllabus for 2026, 2027 and 2028**（version 2，2025 年 12 月发布）逐条整理，并参考 Paper 2 / Paper 4 常见考法补充答题关键词与易错点。
 
+与仓库旧版相比，本版做了以下校正：
+
+- **1.1 不考螺旋测微器、游标卡尺**：2026–2028 官方 1.1 只要求直尺、量筒、钟/数字计时器和单摆多次测量。
+- **1.2 不要求运动方程**（`v = u + at`、`s = ut + ½at²`、`v² = u² + 2as` 不在现行考纲中）。
+- **力矩属于 1.5.2 Core**，不是 Extended；只有“支点两侧多个力”的情况才是 Supplement。
+- **1.6 动量整节都是 Supplement（Extended）**，Core 考生不考。
+- **1.8 不考大气压、气压计、U 形管压力计**：现行 1.8 只要求 `P = F/A`、随力/面积变化、液体压强随深度/密度变化，以及 `Δp = ρgΔh`。
+- **标量/矢量与两个垂直矢量的合成属于 1.1 Supplement**，旧版错误地放在 1.2。
+- 补入旧版缺失：圆周运动定性、固体摩擦/液体与气体阻力、比例极限、`F = Δp/Δt`、静电势能、液体分层、效率的功率形式等。
+
+参考来源：
+
+- [CAIE 0625 Syllabus 2026–2028（官方 PDF）](https://www.cambridgeinternational.org/Images/697209-2026-2028-syllabus.pdf)
 - [xtremepape.rs](https://papers.xtremepape.rs/) —— 历年真题索引
-- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) —— 按topic分类的试题与答案
-- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) —— 按topic分类的试题与解析
-- [Sparkl](https://www.sparkl.me/past-papers) —— 历年真题在线浏览与下载
-- [Gamatrain](https://gamatrain.com/) —— 近年真题PDF下载
-
-Topic 1是IGCSE物理的**第一大板块**，覆盖8个子主题：物理量与测量技术、运动、质量与重量、密度、力的作用、动量、能量做功与功率、压力。本topic在Paper 2和Paper 4中**每年必考**，尤其是运动学图形题、牛顿第二定律的计算题、以及能量转化题，是Paper 4第1题最常见的出题范围。
+- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) —— 按 topic 分类的试题与答案
+- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) —— 按 topic 分类的试题与解析
 
 ---
 
 ## Part 1: 考纲结构
 
-| 编号 | 子主题 | 中文 |
-|------|--------|------|
-| 1.1 | Length and time | 长度与时间 |
-| 1.2 | Motion | 运动 |
-| 1.3 | Mass and weight | 质量与重量 |
-| 1.4 | Density | 密度 |
-| 1.5 | Forces | 力的作用 |
-| 1.6 | Momentum | 动量 |
-| 1.7 | Energy, work and power | 能量、做功与功率 |
-| 1.8 | Pressure | 压力 |
+| 编号 | 内容 | 中文 | 层级 |
+|------|------|------|------|
+| 1.1 | Physical quantities and measurement techniques | 物理量与测量技术 | Core + Supplement |
+| 1.2 | Motion | 运动 | Core + Supplement |
+| 1.3 | Mass and weight | 质量与重量 | Core + Supplement |
+| 1.4 | Density | 密度 | Core + Supplement |
+| 1.5 | Forces | 力的作用 | Core + Supplement |
+| 1.5.1 | Effects of forces | 力的效果 | Core + Supplement |
+| 1.5.2 | Turning effect of forces | 力矩 | Core + Supplement |
+| 1.5.3 | Centre of gravity | 重心 | Core |
+| 1.6 | Momentum | 动量 | **Supplement** |
+| 1.7 | Energy, work and power | 能量、做功与功率 | Core + Supplement |
+| 1.7.1 | Energy | 能量 | Core + Supplement |
+| 1.7.2 | Work | 功 | Core |
+| 1.7.3 | Energy resources | 能源资源 | Core + Supplement |
+| 1.7.4 | Power | 功率 | Core |
+| 1.8 | Pressure | 压力 | Core + Supplement |
 
-Extended tier考生（Paper 4）需要掌握**1.2、1.6、1.7**中的扩展内容，包括速度-时间图像的梯度与面积意义、动量守恒、以及功率的计算。
-
----
-
-## Part 2: Single Examination Points (Topic by Topic)
-
-### 1.1 物理量与测量技术 (Physical Quantities and Measurement Techniques)
-
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 测量仪器 | ruler, measuring cylinder, micrometer screw gauge, stopwatch | 识别最合适的测量仪器 | 描述仪器读数方法 |
-| 体积测量 | water displacement, irregular solids | 计算不规则物体的体积 | 设计实验测量体积 |
-| 时间测量 | pendulum, oscillation, period | 计算单摆周期 | 分析实验数据 |
-
-**答案要点**：
-
-- **长度测量**：
-  - 直尺（ruler）：测量1 mm至1 m范围，读数到0.1 cm。
-  - **螺旋测微器（micrometer screw gauge）**：用于测量小于1 mm的物体，精度0.01 mm（千分尺）。
-  - **游标卡尺（vernier caliper）**：用于测量小长度（通常精度0.1 mm或0.02 mm），与螺旋测微器不同。
-- **体积测量**：
-  - 规则固体：`V = 长 × 宽 × 高`
-  - 不规则固体：**排水法（water displacement）** —— 将物体完全浸入量筒的水中，液面上升的体积等于物体体积。
-  - 读数时，视线与液面最低处（凹液面）**平齐**（眼睛平视）。
-- **时间测量**：
-  - 使用**数字秒表（digital stopwatch）** 或**模拟秒表**。
-  - 测量单摆周期时，测量**多次全摆动（如10次）的总时间**，再除以次数，以减少误差。
-
-**⚠️ 陷阱警示**：Paper 2中常以“哪组测量仪器最合适”设问。记住：测量不规则固体用排水法 + 量筒；测量极细物体（如铜丝直径）用螺旋测微器；测量单摆周期用秒表测量多个周期。
+> 记忆框架：**测量 → 运动 → 质量/重量 → 密度 → 力 → 动量 → 能量 → 压力**。
 
 ---
 
-### 1.2 运动 (Motion)
+## Part 2: 考点整理
 
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 标量与矢量 | scalar (magnitude only), vector (magnitude + direction) | 区分标量和矢量 | 解释为什么速度是矢量 |
-| 运动基本量 | speed, velocity, acceleration, distance, displacement | 识别定义；简单计算 | 应用公式解题 |
-| 运动图形 | distance-time graph, speed-time graph | 识别静止、匀速、加速/减速对应的图形形状 | 从图形中计算距离、加速度 |
-| 运动方程 | v = u + at, s = ut + ½at², v² = u² + 2as | 识别公式（Extended） | 计算未知量（Extended） |
-| 自由落体 | free fall, g = 9.8 m/s², terminal velocity | 定义自由落体；解释终端速度的形成 | 描述下落的运动阶段 |
+### 1.1 物理量与测量技术（Core + Supplement）
 
-**答案要点**：
+**Core**
+- 用**直尺（ruler）**和**量筒（measuring cylinder）**测量长度或体积。
+  - 量筒读数：视线与**凹液面最低处**平齐。
+- 用**钟或数字计时器（clocks / digital timers）**测量各种时间间隔。
+- 通过**多次测量**求小距离/短时间的平均值，包括**单摆的振动周期**：
+  - 测 n 次全振动的总时间 t，周期 `T = t/n`。
 
-- **标量 vs 矢量**：
-  - **标量（Scalar）** ：只有大小，没有方向。例如：**距离（distance）、速率（speed）、质量（mass）、能量（energy）、时间（time）**。
-  - **矢量（Vector）** ：既有大小，又有方向。例如：**位移（displacement）、速度（velocity）、加速度（acceleration）、力（force）、动量（momentum）**。
+**Supplement**
+- **标量（scalar）**：只有大小；**矢量（vector）**：既有大小又有方向。
+- 标量：**distance、speed、time、mass、energy、temperature**。
+- 矢量：**force、weight、velocity、acceleration、momentum、electric field strength、gravitational field strength**。
+- 求**两个互相垂直的矢量**的合力：可用计算或作图，**只限力或速度**（官方 1.1 Supplement 7，仅 Extended）。
+  - 大小：`R = √(F₁² + F₂²)`；
+  - 方向：`tan θ = F₂ / F₁`（相对 F₁）。
+  - **真题例（0625/42 Feb/March 2023 Q1）**：船横渡速度 3.5 m/s，水流 2.5 m/s 与之垂直；`R = √(3.5² + 2.5²) ≈ 4.3 m/s`，`tan θ = 3.5/2.5` → θ ≈ 54°（相对河岸）。
 
-- **关键定义**：
-  - **速率（Speed, scalar）** ：单位时间内移动的**距离**。公式：`v = s / t`。
-  - **速度（Velocity, vector）** ：单位时间内移动的**位移**。公式：`v = Δs / Δt`。
-  - **加速度（Acceleration, vector）** ：速度的变化率。公式：`a = Δv / Δt`，单位 m/s²。
-  - 加速度为**正值**表示速度增加（加速），为**负值**表示速度减少（减速/减速度，deceleration）。
-
-- **距离-时间图（Distance-Time Graph）** ：
-  - 水平线 → 静止（速度 = 0）
-  - 倾斜直线 → 匀速运动（速度 = 斜率）
-  - 向上弯曲曲线 → 加速（斜率增加）
-  - 向下弯曲曲线 → 减速（斜率减小）
-
-- **速度-时间图（Speed-Time Graph）** ：
-  - 水平线 → 匀速运动（加速度 = 0）
-  - 倾斜直线 → 匀加速/匀减速（加速度 = 斜率）
-  - **斜率** = 加速度（`a = Δv / Δt`）
-  - **曲线下面积** = 物体移动的**距离**
-  - 负梯度表示减速（速度下降）
-
-- **自由落体（Free Fall）** ：
-  - 物体只在**重力**作用下运动（忽略空气阻力），加速度 ≈ **9.8 m/s²**（近地表）。
-  - **终端速度（Terminal velocity）** ：当空气阻力 = 重力时，合力为零，速度不再增加，达到最大恒定速度。
-  - 形成过程：从静止释放 → 加速（重力 > 阻力）→ 阻力随速度增大而增大 → 重力 = 阻力 → 速度恒定（终端速度）。
-
-- **运动方程（Equations of Motion，Extended）** （仅适用于**匀加速直线运动**）：
-  1. `v = u + a t`
-  2. `s = u t + ½ a t²`
-  3. `v² = u² + 2 a s`
-  - 其中：`u` = 初速度，`v` = 末速度，`a` = 加速度，`t` = 时间，`s` = 位移。
-
-**⚠️ 陷阱警示**：
-- **距离 vs 位移**：距离是标量（总路程），位移是矢量（起点到终点的直线距离+方向）。做圆运动的物体位移可为零，但距离不为零。
-- **速度 vs 速率**：速度是矢量，速率是标量。匀速圆周运动速率恒定，但速度方向不断变化，因此速度是变化的。
-- **“加速度”与“速度增加”** 并非同义：物体可以加速（a > 0）也可以减速（a < 0）；加速度为正值时速度增加，负值时速度减少。
-- 图形题中，**速度-时间图的面积 = 距离**，而非位移（因为速度图中仅显示速度大小，未包含方向信息）。
+**易错点**
+- 2026–2028 **不考**螺旋测微器、游标卡尺，也不要求记 0.01 mm/0.1 mm 精度。
+- temperature 是**标量**；weight、electric field strength、gravitational field strength 是**矢量**。
+- 平均速度用**总距离 ÷ 总时间**，不是“把几个速度平均”。
+- 单摆要数**完整振动**次数，别把半个来回算一次。
 
 ---
 
-### 1.3 质量与重量 (Mass and Weight)
+### 1.2 运动（Core + Supplement）
 
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 质量 vs 重量 | mass (kg, constant), weight (N, force), W = mg | 区分质量和重量；识别计算 | 解释为什么同一物体在月球上重量更小 |
-| 重力场强度 | gravitational field strength, g = 9.8 N/kg | 定义g；简单计算 | 用W = mg解题 |
+**Core**
+- **速率（speed）**：单位时间走过的距离，`v = s / t`。
+- **速度（velocity）**：速率加上方向（speed in a given direction）。
+- **平均速率**：`average speed = total distance travelled / total time taken`。
+- 会画、会解释**距离–时间图（d–t）**和**速度–时间图（v–t）**：
+  - d–t 图：水平线 → 静止；直线 → 匀速；曲线 → 加速/减速；
+  - v–t 图：水平线 → 匀速；直线 → 匀加速/匀减速；曲线 → 变加速。
+- 从 d–t 图**直线的斜率**求速率。
+- 从 v–t 图**曲线下面积**求距离（限匀速或匀加速的运动）。
+- 近地表**自由落体**的加速度 `g` 近似恒定，约 **9.8 m/s²**。
 
-**答案要点**：
+**Supplement**
+- **加速度**：速度的变化率，`a = Δv / Δt`。
+- 从数据或 v–t 图形状判断：**匀加速**还是**变加速**。
+- 从 v–t 图**斜率**求加速度。
+- **减速（deceleration）**是负加速度，可用于计算。
+- 描述物体在重力场中下落（有/无空气或液体阻力）的运动，包括**终端速度（terminal velocity）**：
+  - 重力 > 阻力 → 加速；阻力随速度增大；
+  - 重力 = 阻力 → 合力为零 → 匀速下落（终端速度）。
 
-- **质量（Mass）** ：物体所含物质的多少。单位为**千克（kg）** 。质量是**固有属性**，不随位置改变。
-- **重量（Weight）** ：重力对物体的作用力，单位为**牛顿（N）** 。重量是**矢量**，方向垂直向下。
-- **关系**：`W = m × g`
-  - `g` 是**重力场强度（gravitational field strength）** ，近地表约为 `9.8 N/kg`。
-  - 同一物体在月球上质量不变，但重量减小（因月球g ≈ 1.6 N/kg）。
-
-- **测量方法**：
-  - 质量用**电子天平（digital balance）** 或**杠杆天平**测量。
-  - 重量用**弹簧测力计（spring balance / newton meter）** 测量。
-
-**⚠️ 陷阱警示**：Paper 2常以表格形式比较质量和重量，考查点包括：
-- 质量是标量，重量是矢量。
-- 质量用天平测，重量用弹簧秤测。
-- 质量不随位置变化，重量随g变化。
-
----
-
-### 1.4 密度 (Density)
-
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 密度定义 | density, ρ = m/V, units kg/m³ or g/cm³ | 计算简单密度 | 解释为什么物体漂浮 |
-| 密度测量 | regular solid, irregular solid, liquid | 识别测量所需的两个量 | 设计实验测量密度 |
-| 密度与浮力 | float if ρ_object < ρ_fluid | 判断物体沉浮 | 解释密度计原理 |
-
-**答案要点**：
-
-- **定义**：单位体积的质量。公式：`ρ = m / V`，单位 **kg/m³** 或 **g/cm³**。
-- **规则固体密度的测量**：用天平测质量 `m`；用直尺量尺寸，计算体积 `V`；用公式计算 `ρ = m/V`。
-- **不规则固体密度的测量**：用天平测质量 `m`；用**排水法**（量筒+水）测体积 `V`；计算 `ρ = m/V`。
-- **液体密度的测量**：用天平测空烧杯质量 `m₁`；倒入液体测总质量 `m₂` → `m = m₂ - m₁`；用量筒测液体体积 `V`；计算密度。
-- **物体沉浮条件**：
-  - `ρ_object < ρ_fluid` → 漂浮（floating）
-  - `ρ_object = ρ_fluid` → 悬浮（suspended）
-  - `ρ_object > ρ_fluid` → 下沉（sink）
-
-**⚠️ 陷阱警示**：常见考题给出四张图（尺寸和质量的四个固体），要求选出密度最大的。记住：比较密度需同时比较质量和体积。
+**易错点**
+- **距离 vs 位移**：距离是标量（总路程）；位移是矢量（起点到终点的直线距离 + 方向）。
+- **速率 vs 速度**：匀速圆周运动速率不变，但速度方向在变，所以速度在变。
+- d–t 图斜率是速率；v–t 图斜率是加速度、面积是**距离**。
+- 0625 **不要求** `v = u + at`、`s = ut + ½at²`、`v² = u² + 2as`；不要在这上面花时间。
+- 终端速度时**合力为零、速度恒定**，不是“加速度最大”。
+- 减速的本质是**加速度与速度方向相反**，不一定写成“负加速度”才得分。
 
 ---
 
-### 1.5 力的作用 (Forces)
+### 1.3 质量与重量（Core + Supplement）
 
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 力的效果 | change shape, change motion, change direction | 识别力的不同效果 | 举例说明 |
-| 合力 | resultant force, net force | 计算同一直线上两个力的合力 | 计算并解释运动状态 |
-| 胡克定律 | Hooke's law, extension proportional to force, spring constant | 从实验数据判断是否满足胡克定律 | 计算弹簧常数；绘制F-e图 |
-| 牛顿第二定律 | Newton's second law, F = ma | 识别公式；简单计算 | 计算加速度或力 |
-| 牛顿第一定律 | inertia, constant velocity if no resultant force | 解释物体为什么保持静止或匀速 | 描述惯性现象 |
-| 力矩 | moment, torque, M = F × d, pivot, equilibrium | 计算力矩 | 解释杠杆平衡条件 |
-| 重心 | centre of gravity | 定义 | 判断稳定性 |
+**Core**
+- **质量（mass）**：物体中物质的多少（相对观察者静止时）；单位 kg。
+- **重量（weight）**：作用在有质量物体上的**重力**；单位 N，方向竖直向下。
+- **重力场强度**：`g = W / m`，单位 **N/kg**；它等于**自由落体加速度**（m/s²）。
+- 天平（balances）可用来比较质量/重量。
 
-**答案要点**：
+**Supplement**
+- 把重量理解为**重力场对质量的作用效果**。
 
-- **力的效果**：
-  1. 改变物体的**形状**（如拉伸弹簧、压扁海绵）。
-  2. 改变物体的**运动速度**（加速、减速）。
-  3. 改变物体的**运动方向**。
-
-- **合力（Resultant Force）** ：作用在同一物体上所有力的**矢量和**。
-  - 同一直线上：`F_net = F₁ + F₂`（方向相同时相加；方向相反时相减）。
-  - 牛顿第二定律：`F = m × a`（**F_net = 质量 × 加速度**）。
-
-- **牛顿第一定律（Newton's First Law）** ：当**合力为零**时，物体保持静止或匀速直线运动。这称为**惯性（inertia）** ——物体抵抗运动状态改变的性质。质量越大，惯性越大。
-
-- **胡克定律（Hooke's Law，Extended）** ：在弹性限度内，弹簧的**伸长量（extension）** 与所受的**力**成正比。公式：`F = k × x`，其中：
-  - `F` = 力（N）
-  - `x` = 伸长量 = 当前长度 - 原长（m或cm）
-  - `k` = **弹簧常数（spring constant）** ，单位 N/m 或 N/cm。
-  - 满足胡克定律时，`F-x` 图像是**过原点的直线**；弹性极限后，直线变成曲线。
-
-- **力矩（Moment, Extended）** ：
-  - 定义：力 × 力臂（力的作用线到支点的**垂直距离**）。公式：`M = F × d`，单位 N·m。
-  - **杠杆平衡条件**：顺时针力矩 = 逆时针力矩，即 `F₁ × d₁ = F₂ × d₂`。
-  - **重心（Centre of Gravity）** ：物体重力的**作用点**。均匀物体的重心在其**几何中心**。
-
-**⚠️ 陷阱警示**：
-- 胡克定律实验中，需要准确测量弹簧的**伸长量**（当前长度减原长），而不是总长度。
-- 力矩公式中的 `d` 是支点到力作用线的**垂直距离**，不是直接距离。
-- `F = ma` 中的 `F` 是**合力**，不是单个力。做计算题时，必须先求合力（同向相加，反向相减），再代入公式。
+**易错点**
+- 质量是**标量**，不随位置变；重量是**矢量**，随 g 变。
+- `g = 9.8 N/kg = 9.8 m/s²`，两个单位等价。
+- 天平测质量；弹簧测力计测重量。
 
 ---
 
-### 1.6 动量 (Momentum, Extended)
+### 1.4 密度（Core + Supplement）
 
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 动量定义 | momentum, p = mv, unit kg·m/s | 计算动量 | 定义并计算 |
-| 动量守恒 | conservation of momentum, total momentum before = total momentum after | 判断动量是否守恒 | 用守恒定律解题 |
-| 冲量 | impulse, FΔt = Δp | 定义 | 计算力或时间 |
+**Core**
+- **密度**：单位体积的质量，`ρ = m / V`；单位 kg/m³ 或 g/cm³。
+- 测定密度：
+  - **液体**：天平测质量，量筒测体积；
+  - **规则固体**：天平测质量，直尺量尺寸算体积；
+  - **会沉入液体的不规则固体**：天平测质量，**排水法**测体积。
+- 根据密度数据判断物体是否**漂浮**：
+  - `ρ_object < ρ_fluid` → 漂浮；
+  - `ρ_object = ρ_fluid` → 悬浮；
+  - `ρ_object > ρ_fluid` → 下沉。
 
-**答案要点**：
+**Supplement**
+- 根据密度判断**一种液体是否会浮在另一种不混合液体上**。
 
-- **定义**：动量 = 质量 × 速度。公式：`p = m × v`，单位 kg·m/s。动量是**矢量**（方向与速度相同）。
-- **动量守恒定律（Principle of Conservation of Momentum）** ：在一个**封闭系统**（无外力作用）中，碰撞前总动量 = 碰撞后总动量。
-- **火箭推进原理**：火箭向下喷射气体，气体获得向下的动量；根据动量守恒，火箭获得大小相等、方向**向上**的动量，从而加速上升。
-- **冲量（Impulse）** ：力 × 作用时间 = 动量的变化。公式：`F × Δt = Δp = m × Δv`。
-
-**⚠️ 陷阱警示**：Paper 4常要求“用动量守恒解释火箭为什么向上加速”。关键句：火箭向下喷射气体，气体获得向下的动量，根据动量守恒，火箭获得大小相等、方向**向上**的动量，因此加速上升。
-
----
-
-### 1.7 能量、做功与功率 (Energy, Work and Power)
-
-#### 1.7.1 能量形式与能量守恒
-
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 能量形式 | kinetic (KE), gravitational potential (GPE), chemical, elastic, nuclear, thermal (internal) | 识别不同能量形式 | 描述能量转化过程 |
-| 能量守恒 | conservation of energy, energy cannot be created or destroyed, only transferred | 识别能量守恒的应用 | 解释能量如何转移 |
-| 做功 | work done, W = F × d, unit joule (J) | 计算功 | 解释功与能量转移的关系 |
-| 功率 | power, P = E / t, unit watt (W) | 简单计算 | 比较不同电机的功率 |
-| 效率 | efficiency = useful output / total input × 100% | 识别公式 | 计算效率 |
-
-**答案要点**：
-
-- **能量形式（Energy Stores）** ：
-  - **动能（Kinetic Energy，KE）** ：运动的物体具有的能量。公式：`KE = ½ m v²`。
-  - **重力势能（Gravitational Potential Energy，GPE）** ：被举高的物体具有的能量。公式：`GPE = m g h`。
-  - **化学能（Chemical energy）** ：储存在化学键中的能量（电池、食物、燃料）。
-  - **弹性势能（Elastic potential energy）** ：拉伸或压缩的弹簧具有的能量。
-  - **核能（Nuclear energy）** ：储存在原子核中的能量。
-  - **内能（Internal / thermal energy）** ：与物体温度相关的能量。
-
-- **能量守恒定律（Conservation of Energy）** ：能量不能被**创造**或**消灭**，只能从一种形式**转化**为另一种形式，或从一个物体**转移**到另一个物体。
-  - 例如：燃烧木材 → 化学能 → 热能和光能；水电站 → 水的重力势能 → 动能 → 发电机的电能。
-
-- **做功（Work Done）** ：力 × 力方向上的位移。公式：`W = F × d`，单位**焦耳（J）**。1 J = 1 N·m。
-  - 功是能量转移的量度：当对物体做功时，能量从一种形式转化为另一种形式。
-  - **功 = 能量转移**（work done = energy transferred）。
-
-- **功率（Power）** ：单位时间内完成的功（或转移的能量）。公式：`P = W / t = E / t`，单位**瓦特（W）**。1 W = 1 J/s。
-  - 功率越大，表示**每秒钟做功越多**（能量转移速率越快）。
-
-- **效率（Efficiency）** ：有用输出能量（或功）占输入总能量的百分比。
-  - 公式：`效率 = (有用输出 / 总输入) × 100%`。
-  - 没有机器能达到100%的效率——总有一部分能量以**热能**的形式“浪费”到周围环境中。
-
-**⚠️ 陷阱警示**：
-- `KE = ½ m v²` 中，速度平方使速度的影响非常大（速度加倍 → 动能四倍）。
-- 功率公式 `P = W/t` 适用于计算平均功率；瞬时功率需用 `P = F v`（但IGCSE不要求）。
-- 效率计算时，必须确保**有用输出**和**总输入**的单位一致（通常都用焦耳J）。
-- 能量转化题中，需要明确能量**从什么形式转化为什么形式**，不能只说“能量转化了”。例如：水从高处流下 → **重力势能 → 动能**。
+**易错点**
+- `1 g/cm³ = 1000 kg/m³`。
+- 排水法适用于**会沉下去**的不规则固体；漂浮物不能直接用排水法。
+- 比较密度要同时看质量和体积。
+- 液体分层：密度小的在上层。
 
 ---
 
-#### 1.7.2 能源资源 (Energy resources) – Core
+### 1.5 力的作用（Core + Supplement）
 
-考纲要求描述各种能源的获取方式以及优缺点。以下列出常见能源：
+#### 1.5.1 力的效果（Core + Supplement）
 
-| 能源 | 来源/获取方式 | 优点 | 缺点 |
-|------|--------------|------|------|
-| **化石燃料 (fossil fuels)** | 燃烧煤、石油、天然气 | 能量密度高，现有基础设施完善，可靠 | 不可再生，燃烧释放 CO₂（温室效应）、SO₂（酸雨），污染环境，储量有限 |
-| **生物燃料 (biofuels)** | 燃烧植物或动物废弃物（如乙醇、生物柴油） | 可再生（可种植），碳中性（生长时吸收 CO₂），可用现有发动机 | 产量低，占用耕地可能影响粮食供应，能量密度较低 |
-| **水力发电 (hydroelectric)** | 利用水从高处流下的动能推动涡轮机 | 可再生，无污染，可快速响应电网需求，水库可调节洪水 | 淹没大片土地，破坏生态，受地理限制，建设成本高 |
-| **潮汐/波浪能 (tidal/wave)** | 利用潮汐涨落或波浪运动推动涡轮机 | 可再生，可预测（潮汐），无温室气体排放 | 设备易腐蚀，影响海洋生态，选址受限，初投资大 |
-| **地热能 (geothermal)** | 利用地下高温蒸汽或热水驱动涡轮机 | 可再生，稳定（不受天气影响），土地使用面积小 | 仅限地热活跃区（火山带），可能释放地下的有害气体 |
-| **核能 (nuclear fuel)** | 核裂变释放能量，加热水产生蒸汽推动涡轮机 | 能量密度极高，无 CO₂ 排放，运行成本低 | 核废料放射性处理难，存在核泄漏风险，建设成本高，公众接受度低 |
-| **太阳能 (solar)** | 光伏电池（直接发电）或太阳能集热器（加热水） | 可再生，无污染，安静，适用于偏远地区 | 间歇性（夜晚/阴天），能量密度低，需要大面积极板，电池储能成本高 |
-| **风能 (wind)** | 风力推动涡轮机叶片旋转发电 | 可再生，无污染，运行成本低 | 间歇性（无风时），噪音，影响鸟类，需要大片空旷土地（陆上）或深海（海上） |
+**Core**
+- 力可能使物体**大小/形状**改变。
+- 会画、会解释**弹性固体的载荷–伸长（load–extension）图**，并描述实验步骤。
+- 求**同一直线上**两个或多个力的合力。
+- **牛顿第一定律**：没有合力时，物体保持静止或匀速直线运动。
+- 合力可以改变物体的**速度方向**或**速度大小**。
+- **固体摩擦**：阻碍运动并产生热。
+- **阻力（drag）**：物体在液体或气体（如空气阻力）中运动时受到的阻力。
 
-**能量来源的根源**：
-- 除地热能和核能（以及潮汐能部分来自月球引力）外，所有能源最终来源于**太阳辐射**。太阳通过核聚变释放能量，驱动大气环流（风）、水循环（水力）、植物生长（生物燃料）以及化石燃料的形成。
+**Supplement**
+- **弹簧常数**：`k = F / x`，单位 N/m。
+- **比例极限（limit of proportionality）**：载荷–伸长图仍为直线的最大点；会识别该点。
+  - 考纲明确：**不要求 elastic limit**。
+- **牛顿第二定律**：`F = m a`，F 与 a 同方向。
+- **圆周运动定性**：
+  - 质量、半径不变时，力越大 → 速度越大；
+  - 质量、速度不变时，力越大 → 半径越小；
+  - 速度、半径不变时，质量越大 → 所需力越大；
+  - `F = mv²/r` **不要求**。
 
-**能源选择的权衡**：实际选择取决于**可再生性、可用性、可靠性（间歇性）、规模（能否大规模发电）、环境影响**以及经济成本。例如，风力发电在风力资源丰富地区经济性好，但在无风或人口密集地区不可行。
+**易错点**
+- 胡克定律用**伸长量 x**（现长 − 原长），不是总长度。
+- 比例极限 ≠ 弹性极限；考纲只要求比例极限，**elastic limit 不考**。
+- `F = ma` 中的 F 是**合力**，先求合力再代入。
+- 摩擦力/阻力方向与**相对运动方向相反**。
+- 圆周运动的力**指向圆心**，与运动方向垂直。
+
+#### 1.5.2 力矩（Core + Supplement）
+
+**Core**
+- **力矩**是力使物体绕支点转动效果的量度；`moment = force × perpendicular distance from pivot`。
+- **力矩原理**：支点两侧各有一个力时，顺时针力矩 = 逆时针力矩（可处理横梁平衡）。
+- **平衡（equilibrium）**：没有合力，也没有合力矩。
+
+**Supplement**
+- 力矩原理用于**支点两侧有多个力**的情况。
+- 描述实验证明：平衡时物体**没有合力矩**。
+
+**易错点**
+- `d` 是到支点的**垂直距离**，不是沿力的方向的距离。
+- 力矩单位 N·m，不是 J。
+- 平衡必须同时满足：**合力为零 + 合力矩为零**。
+
+#### 1.5.3 重心（Core）
+
+- **重心**：物体重力作用的点。
+- 实验：用**铅垂线**确定不规则薄板的重心。
+- **稳定性**：重心越低、底面积越大，物体越稳定。
+
+**易错点**
+- 均匀规则物体的重心在**几何中心**。
+- 重心可以不在物体上（如圆环）。
 
 ---
 
-### 1.8 压力 (Pressure)
+### 1.6 动量（Supplement only）
 
-| 考点 | 关键词 | Paper 2高频 | Paper 4典型 |
-|------|--------|-------------|-------------|
-| 压力定义 | pressure, P = F/A, unit pascal (Pa) or N/m² | 识别公式；简单计算 | 解释为什么刀刃锋利 |
-| 液体压力 | liquid pressure, P = ρgh | 识别液体压力公式 | 解释潜水艇为什么需要特殊结构 |
-| 气体压力 | atmospheric pressure, manometer, barometer | 识别气压单位 | 解释气压变化的原因 |
+> 整节 1.6 都是 Supplement；Core 考生不考。
 
-**答案要点**：
+- **动量**：`p = m v`，单位 kg·m/s，矢量（方向与速度相同）。
+- **冲量**：`impulse = F Δt = Δp = m v − m u`。
+- **动量守恒**：封闭系统（无外力/合外力为零）中，碰撞前总动量 = 碰撞后总动量；用于一维问题。
+- **合力 = 动量变化率**：`F = Δp / Δt`。
 
-- **压力（Pressure）** ：单位面积上的力。公式：`P = F / A`，单位**帕斯卡（Pa）** 或 **N/m²**。
-  - 压力与**力**成正比，与**面积**成反比。
-  - 应用：刀刃锋利（减小面积 → 增大压力）→ 更容易切割。
+**易错点**
+- 动量是矢量，一维问题先规定正方向，反向速度带负号。
+- 动量守恒条件要写明“系统不受外力/合外力为零”。
+- 爆炸、反冲也适用动量守恒，但动能不一定守恒。
+- 冲量是力 × 时间，不是力 × 距离。
 
-- **液体压力（Pressure in a liquid，Extended）** ：公式 `P = ρ × g × h`。
-  - `ρ` = 液体密度，`g` = 9.8 N/kg，`h` = 深度。
-  - 液体压力随**深度**增加而增大。
-  - 液体压力与液体的**密度**有关（密度越大，相同深度的压力越大）。
-  - 液体压力向**各个方向**传递（帕斯卡原理）。
+---
 
-- **大气压（Atmospheric pressure）** ：大气层重量产生的压力。
-  - 标准大气压 ≈ **1.01 × 10⁵ Pa**（约100 kPa）。
-  - 用**气压计（barometer）** 测量；用**U形管压力计（manometer）** 测量气体压力与大气压的差值。
-  - 海拔越高，大气压越低。
+### 1.7 能量、做功与功率
 
-**⚠️ 陷阱警示**：Paper 2常考：将同一物体分别平放和竖放在桌面上，问压力是否相同。压力公式 `P = F/A`，力F相同（重力），但接触面积A不同，因此压力不同（面积越小，压力越大）。
+#### 1.7.1 能量（Core + Supplement）
+
+**Core**
+- 能量可以储存在：**动能、重力势能、化学能、弹性形变能、核能、静电势能、内能（thermal）**。
+- 能量可以在储存之间转移，例如通过：
+  - **力/机械做功**；
+  - **电流/电做功**；
+  - **加热**；
+  - **电磁波、声波等波**。
+- **能量守恒**：能量不能被创造或消灭，只能转移或转化；能用简单流程图表示。
+
+**Supplement**
+- `KE = ½ m v²`。
+- 重力势能变化：`ΔGPE = m g Δh`。
+- 用能量守恒分析**多阶段复杂过程**，包括 **Sankey 图**。
+
+**易错点**
+- 区分**能量储存**和**能量转移**：不能说“能量是力”。
+- 能量不是“用掉了”，而是转化/转移到环境。
+- 速度加倍 → 动能变 **4 倍**。
+- GPE 用**高度变化 Δh**，不是绝对高度。
+
+#### 1.7.2 功（Core）
+
+- 机械功或电功 = 转移的能量。
+- `W = F d = ΔE`（d 是沿力方向的位移）。
+
+**易错点**
+- 力与位移垂直时**不做功**（如水平提箱走）。
+- 功的单位 J，不是 N 或 W。
+- 做功可以增加物体内能（摩擦生热）。
+
+#### 1.7.3 能源资源（Core + Supplement）
+
+**Core**
+- 描述如何从以下资源获得有用能量/发电：
+  - **化石燃料**（化学能）；
+  - **生物燃料**（化学能）；
+  - **水**：波浪、潮汐、水坝水力；
+  - **地热**；
+  - **核燃料**；
+  - **太阳光 → 太阳能电池（solar cells）**；
+  - **太阳的红外/其他电磁波 → 太阳能热水器（solar panels）**；
+  - **风能**（最终来自太阳）；
+  - 需要时说明锅炉、涡轮机、发电机的作用。
+- 从**可再生性、可用性、可靠性、规模、环境影响**比较各能源的优缺点。
+- 定性理解**效率**。
+
+**Supplement**
+- 除**地热、核能、潮汐**外，所有能源最终来自**太阳辐射**。
+- 太阳的能量来自**核聚变**。
+- 正在研究如何把聚变能量大规模用于发电。
+- **效率**：
+  - `% efficiency = useful energy output / total energy input × 100%`；
+  - `% efficiency = useful power output / total power input × 100%`。
+
+**易错点**
+- **太阳能电池（solar cells）**直接发电；**太阳能热水器（solar panels）**加热水，别混。
+- 可再生能源 ≠ 始终可靠（风、太阳是间歇性的）。
+- 效率永远小于 100%；“浪费”的能量通常变成内能。
+- 核能、地热、潮汐**不是**来自太阳（按考纲表述）。
+
+#### 1.7.4 功率（Core）
+
+- **功率**：单位时间做的功，或单位时间转移的能量。
+- `P = W / t = E / t`，单位 W（J/s）。
+
+**易错点**
+- 功率大 = 能量转移快，不是“做功多”（还要看时间）。
+- 1 W = 1 J/s。
+
+---
+
+### 1.8 压力（Core + Supplement）
+
+**Core**
+- **压力（压强）**：单位面积上的力，`P = F / A`，单位 Pa（N/m²）。
+- 压力随**力**增大而增大，随**面积**增大而减小；结合刀刃、图钉等例子说明。
+- 定性描述液体内部压力随**深度**和**液体密度**的变化。
+
+**Supplement**
+- 液体表面下压力变化：`Δp = ρ g Δh`。
+
+**易错点**
+- 压力不是重力；`P = F/A` 中 F 是**垂直作用在面积上的力**。
+- 液体压力与容器形状、液体总量无关，只看深度和密度。
+- 用 `Δp = ρgΔh` 时 h 是**深度差**。
+- 2026–2028 的 1.8 **不考**大气压、气压计、U 形管压力计。
 
 ---
 
@@ -340,76 +340,122 @@ Extended tier考生（Paper 4）需要掌握**1.2、1.6、1.7**中的扩展内�
 
 > 图：水平提箱时力与位移垂直（W=0）；向上提时力与位移同向（W=Fd）。
 
-## Part 3: 完整考点一览表
+---
 
-| 编号 | 子主题 | 关键词 | Paper 2高频 | Paper 4高频 |
-|------|--------|--------|-------------|-------------|
-| 1.1 | 长度与时间 | ruler, micrometer, stopwatch, water displacement, meniscus | ★★★ | ★★ |
-| 1.2 | 运动 | speed, velocity, acceleration, scalar, vector, distance-time graph, speed-time graph, terminal velocity | ★★★★★ | ★★★★★ |
-| 1.3 | 质量与重量 | mass, weight, W = mg, gravitational field strength | ★★★ | ★★★ |
-| 1.4 | 密度 | ρ = m/V, regular solid, irregular solid, displacement | ★★★ | ★★★ |
-| 1.5 | 力的作用 | resultant force, F = ma, Hooke's law, F = kx, spring constant, moment, M = Fd, centre of gravity | ★★★★★ | ★★★★★ |
-| 1.6 | 动量（Extended） | momentum, p = mv, conservation of momentum, impulse, FΔt = Δp | ★★★ | ★★★ |
-| 1.7 | 能量、做功与功率 | KE, GPE, work done, W = Fd, power, P = E/t, efficiency, conservation of energy | ★★★★★ | ★★★★★ |
-| 1.8 | 压力 | pressure, P = F/A, P = ρgh, atmospheric pressure | ★★★ | ★★★ |
+## Part 3: 必背公式与常量
 
-（★的数量表示该子主题在Paper 2和Paper 4中的出现频率。）
+| 名称 | 公式 | 单位 | 层级/条件 |
+|---|---|---|---|
+| 速率 | `v = s / t` | m/s | Core |
+| 平均速率 | `average speed = total distance / total time` | m/s | Core |
+| 加速度 | `a = Δv / Δt` | m/s² | Supplement |
+| 自由落体加速度 | `g ≈ 9.8 m/s²` | m/s² | Core |
+| 重量 | `W = m g`；`g = W/m` | N、N/kg | Core |
+| 密度 | `ρ = m / V` | kg/m³ | Core |
+| 弹簧常数 | `k = F / x` | N/m | Supplement |
+| 牛顿第二定律 | `F = m a` | N | Supplement |
+| 力矩 | `moment = F × d⊥` | N·m | Core |
+| 动量 | `p = m v` | kg·m/s | Supplement |
+| 冲量 | `F Δt = Δp = m v − m u` | N·s | Supplement |
+| 合力与动量 | `F = Δp / Δt` | N | Supplement |
+| 动能 | `KE = ½ m v²` | J | Supplement |
+| 重力势能变化 | `ΔGPE = m g Δh` | J | Supplement |
+| 功 | `W = F d = ΔE` | J | Core |
+| 功率 | `P = W / t = E / t` | W | Core |
+| 效率 | `useful output / total input × 100%` | % | Supplement |
+| 压力 | `P = F / A` | Pa | Core |
+| 液体压力变化 | `Δp = ρ g Δh` | Pa | Supplement |
+| 两个垂直矢量合力 | `R = √(F₁² + F₂²)` | — | Supplement（限力/速度） |
 
 ---
 
-## Part 4: 关键词词汇表 (Keyword Glossary)
+## Part 4: 高频易错点速查
+
+| 错误说法 | 正确理解 |
+|---|---|
+| 用螺旋测微器测铜丝直径是 0625 考点 | 0625 2026–2028 **不考** micrometer/vernier |
+| 速度-时间图面积 = 位移 | 面积 = **距离**（speed-time 图不含方向） |
+| 距离-时间图水平线 = 匀速 | 水平线 = **静止** |
+| 匀速圆周运动速度不变 | 速率不变，**速度方向变** → 速度变 |
+| 月球上质量变小 | 质量不变，**重量**变小 |
+| 1 g/cm³ = 100 kg/m³ | = **1000 kg/m³** |
+| 弹簧长度与力成正比 | **伸长量**与力成正比 |
+| 力矩 = 力 × 支点到力的距离 | 力 × 到力作用线的**垂直距离** |
+| 力矩是 Extended | 力矩是 **1.5.2 Core**；多力平衡才是 Supplement |
+| F=ma 中的 F 是拉力 | F 是**合力** |
+| 终端速度时加速度最大 | 加速度为 **0**，速度最大且恒定 |
+| 动量守恒不用管方向 | 矢量，先**规定正方向** |
+| 效率可以到 100% | 永远小于 100% |
+| 液体越深压强越大是因为水多 | 只因为 **深度 h 大**（与总量无关） |
+| 大气压是 1.8 考点 | 现行 1.8 **不考**大气压/气压计/压力计 |
+
+---
+
+## Part 5: Paper 4 答题模板
+
+- **平均速率**：Average speed is the total distance travelled divided by the total time taken.
+- **速度 vs 速率**：Velocity is speed in a given direction; speed is a scalar.
+- **d–t 图**：The gradient of a distance–time graph gives the speed; a horizontal line means the object is at rest.
+- **v–t 图**：The gradient of a speed–time graph gives the acceleration; the area under the graph gives the distance travelled.
+- **终端速度**：Initially weight is greater than air resistance, so the object accelerates. As speed increases, air resistance increases until it equals the weight; the resultant force is then zero, so the object falls at a constant terminal velocity.
+- **牛顿第二定律**：The resultant force on an object is directly proportional to its acceleration and acts in the same direction: `F = ma`.
+- **胡克定律/比例极限**：The extension is directly proportional to the load, provided the limit of proportionality is not exceeded.
+- **力矩**：The moment of a force is the force multiplied by the perpendicular distance from the pivot. In equilibrium, the sum of clockwise moments equals the sum of anticlockwise moments.
+- **动量守恒**：In a closed system with no external resultant force, the total momentum before a collision equals the total momentum after it.
+- **能量守恒**：Energy cannot be created or destroyed, only transferred between stores; state the stores involved explicitly.
+- **效率**：Efficiency = useful energy output ÷ total energy input × 100% (or the power version).
+- **液体压力**：The change in pressure beneath a liquid surface is `Δp = ρgΔh`, where h is the change in depth.
+
+---
+
+## Part 6: 关键词词汇表
 
 | 关键词 | 定义 |
-|--------|------|
-| **Scalar** (标量) | 只有大小、没有方向的物理量。例：距离、速率、质量、能量、时间 |
-| **Vector** (矢量) | 既有大小又有方向的物理量。例：位移、速度、加速度、力、动量 |
-| **Speed** (速率) | 单位时间内移动的**距离**（标量） |
-| **Velocity** (速度) | 单位时间内移动的**位移**（矢量） |
-| **Acceleration** (加速度) | 速度的变化率，单位 m/s²。`a = Δv / Δt` |
-| **Deceleration** (减速度) | 速度减小时的加速度（负值） |
-| **Terminal velocity** (终端速度) | 当空气阻力等于重力时，物体下落达到的最大恒定速度 |
-| **Mass** (质量) | 物体所含物质的多少，单位 kg，不随位置变化 |
-| **Weight** (重量) | 重力对物体的作用力，单位 N，`W = mg` |
-| **Gravitational field strength** (重力场强度) | 单位质量所受的重力，单位 N/kg，`g = W/m`，近地表 g ≈ 9.8 N/kg |
-| **Density** (密度) | 单位体积的质量，单位 kg/m³，`ρ = m/V` |
-| **Resultant force** (合力) | 作用在同一物体上所有力的矢量和 |
-| **Hooke's law** (胡克定律) | 在弹性限度内，弹簧的伸长量与所受外力成正比，`F = kx` |
-| **Spring constant** (弹簧常数) | 弹簧刚度的量度，单位 N/m，`k = F/x` |
-| **Moment** (力矩) | 力使物体绕支点转动的效果，`M = Fd`，单位 N·m |
-| **Centre of gravity** (重心) | 物体重力的作用点；均匀物体的重心位于几何中心 |
-| **Momentum** (动量) | 质量与速度的乘积，`p = mv`，单位 kg·m/s，矢量 |
-| **Conservation of momentum** (动量守恒) | 无外力作用的系统中，碰撞前总动量等于碰撞后总动量 |
-| **Impulse** (冲量) | 力与作用时间的乘积，`FΔt = Δp` |
-| **Kinetic energy (E_k)** (动能) | 运动物体所具有的能量，`KE = ½ m v²` |
-| **Gravitational potential energy (GPE, E_p)** (重力势能) | 被举高物体所具有的能量，`GPE = m g h` |
-| **Work done** (功) | 力 × 力方向上的位移，`W = Fd`，单位 J |
-| **Power** (功率) | 单位时间内完成的功或转移的能量，`P = W/t`，单位 W |
-| **Efficiency** (效率) | 有用输出能量（或功）占输入总能量的百分比，`效率 = (有用输出/总输入) × 100%` |
-| **Pressure** (压力/压强) | 单位面积上的力，`P = F/A`，单位 Pa |
-| **Liquid pressure** (液体压力) | 液体内部某点的压强，`P = ρgh` |
-| **Atmospheric pressure** (大气压) | 大气层重量产生的压力，标准大气压 ≈ 1.01 × 10⁵ Pa |
-| **Conservation of energy** (能量守恒) | 能量不能被创造或消灭，只能从一种形式转化为另一种形式 |
+|---|---|
+| **Scalar**（标量） | 只有大小、没有方向 |
+| **Vector**（矢量） | 既有大小又有方向 |
+| **Speed**（速率） | 单位时间的距离 |
+| **Velocity**（速度） | 速率 + 方向 |
+| **Average speed**（平均速率） | 总距离 ÷ 总时间 |
+| **Acceleration**（加速度） | 速度的变化率，`a = Δv/Δt` |
+| **Deceleration**（减速） | 负加速度（与速度反向） |
+| **Terminal velocity**（终端速度） | 合力为零时的最大恒定速度 |
+| **Mass**（质量） | 物质的多少，kg，标量 |
+| **Weight**（重量） | 重力，N，矢量 |
+| **Gravitational field strength**（重力场强度） | `g = W/m`，N/kg，等于自由落体加速度 |
+| **Density**（密度） | `ρ = m/V` |
+| **Resultant force**（合力） | 所有力的矢量和 |
+| **Friction / drag**（摩擦/阻力） | 阻碍相对运动的力 |
+| **Spring constant**（弹簧常数） | `k = F/x` |
+| **Limit of proportionality**（比例极限） | 载荷–伸长图仍为直线的最大点 |
+| **Moment**（力矩） | `F × 垂直距离`，N·m |
+| **Centre of gravity**（重心） | 重力作用的点 |
+| **Momentum**（动量） | `p = mv`，矢量 |
+| **Impulse**（冲量） | `FΔt = Δp` |
+| **Conservation of momentum**（动量守恒） | 封闭系统总动量不变 |
+| **Kinetic energy**（动能） | `KE = ½mv²` |
+| **Gravitational potential energy**（重力势能） | `ΔGPE = mgΔh` |
+| **Work done**（功） | `W = Fd = ΔE` |
+| **Power**（功率） | `P = W/t = E/t` |
+| **Efficiency**（效率） | 有用输出/总输入 × 100% |
+| **Pressure**（压力/压强） | `P = F/A` |
+| **Liquid pressure**（液体压力） | `Δp = ρgΔh` |
 
 ---
 
-## Part 5: 典型试题 (略)
+## Part 7: 考前自检
 
-> 本笔记为知识点梳理，典型试题部分在最终输出中已省略，以聚焦考点内容。如需试题练习，请参考历年真题（见参考列表）。
-
----
-
-## Part 6: 备考建议（保留精简版）
-
-### Paper 2（选择题）策略：
-1. 区分标量与矢量。
-2. 运动图像题：理解斜率与面积含义。
-3. 密度计算：记住公式及排水法。
-4. 胡克定律：`x` 为伸长量。
-5. 功率与效率：熟记公式。
-
-### Paper 4（结构题）答题模板：
-- 计算题：写出公式，代入数值，带单位。
-- 图形分析：描述梯度/面积/变化趋势。
-- 弹簧实验：`k = F/x`，判断是否为直线。
-- 动量守恒：明确“系统无外力”，分方向说明。
-- 能量转化：指明“从A能转化为B能”。
+1. 直尺/量筒/计时器怎么用？单摆周期怎么测？
+2. 标量/矢量分别有哪些？两个垂直矢量怎么合成？
+3. 速率、速度、平均速度、加速度的定义与公式？
+4. d–t 图和 v–t 图的斜率/面积分别代表什么？
+5. 自由落体与终端速度的完整过程？
+6. 质量与重量的区别？`g = W/m` 与 9.8 m/s² 的关系？
+7. 密度怎么测（液体/规则固体/不规则固体）？沉浮条件？
+8. 力的效果、合力、牛顿第一/第二定律？
+9. 胡克定律、比例极限、弹簧常数？
+10. 力矩与力矩原理？平衡条件？重心与稳定性？
+11. 动量、冲量、动量守恒、`F = Δp/Δt`？
+12. 能量储存/转移、KE/GPE、功、功率、效率？
+13. 各种能源的优缺点？为什么太阳是大多数能源的最终来源？
+14. `P = F/A` 与 `Δp = ρgΔh` 的应用？

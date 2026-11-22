@@ -1,288 +1,323 @@
-# IGCSE Physics 0625 – Topic 1: Motion, Forces & Energy
+# IGCSE Physics 0625 – Topic 1: Motion, Forces and Energy
 - 这份笔记由 LG-leo 整理和维护。如果你觉得这份笔记对你有帮助，欢迎在 GitHub 上关注我或给我一个 ⭐，这能帮助我持续产出更多免费的学习资源。
 - 我的其他课程笔记：https://github.com/LG-leo?tab=repositories
 - This note is maintained by LG-leo. If you find it helpful, feel free to follow me or leave a ⭐ on GitHub. It helps me keep producing more free study resources. Check out my other notes: https://github.com/LG-leo?tab=repositories
+
 ## Important Notes
 
-This document follows the **CAIE syllabus for 2023–2028** and has been cross‑checked with more than 20 past papers (2017–2025) covering Paper 2 and Paper 4. All content is aligned with the following sources:
+This document follows the **CAIE 0625 Syllabus for 2026, 2027 and 2028** (version 2, published December 2025) point by point, and adds exam keywords and common traps based on Paper 2 and Paper 4 questions.
 
+Corrections compared with the older version of this note:
+
+- **No micrometer screw gauge or vernier caliper in 1.1**: the current syllabus requires only rulers, measuring cylinders, clocks/digital timers and multiples for a pendulum.
+- **No equations of motion** (`v = u + at`, `s = ut + ½at²`, `v² = u² + 2as`) in 1.2.
+- **Moments are Core (1.5.2)**, not Extended; only "more than one force each side" is Supplement.
+- **The whole of 1.6 Momentum is Supplement**; Core candidates do not study it.
+- **No atmospheric pressure, barometer or manometer in 1.8**; only `P = F/A`, variation with force/area, qualitative liquid pressure and `Δp = ρgΔh`.
+- **Scalars, vectors and the resultant of two perpendicular vectors are in 1.1 Supplement**, not 1.2.
+- Added missing content: qualitative circular motion, solid friction/drag, limit of proportionality, `F = Δp/Δt`, electrostatic energy, liquid layers, and the power form of efficiency.
+
+Sources:
+
+- [CAIE 0625 Syllabus 2026–2028 (official PDF)](https://www.cambridgeinternational.org/Images/697209-2026-2028-syllabus.pdf)
 - [xtremepape.rs](https://papers.xtremepape.rs/) – past paper index
-- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) – topic‑wise questions and answers
-- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) – topic‑wise questions
-- [Sparkl](https://www.sparkl.me/past-papers) – past papers online
-- [Gamatrain](https://gamatrain.com/) – recent past papers
-
-Topic 1 is a core component of IGCSE Physics. It covers eight sub‑topics: physical quantities & measurement techniques, motion, mass & weight, density, forces, momentum, energy/work/power, and pressure. This topic appears every year in both Paper 2 and Paper 4.
+- [Save My Exams](https://www.savemyexams.com/igcse/physics/cie/23/) – topic-wise questions and answers
+- [IITian Academy](https://www.iitianacademy.com/igcse-physics/) – topic-wise questions
 
 ---
 
 ## Part 1: Syllabus Structure
 
-| No. | Sub‑topic | Chinese |
-|-----|-----------|---------|
-| 1.1 | Length and time | 长度与时间 |
-| 1.2 | Motion | 运动 |
-| 1.3 | Mass and weight | 质量与重量 |
-| 1.4 | Density | 密度 |
-| 1.5 | Forces | 力的作用 |
-| 1.6 | Momentum | 动量 |
-| 1.7 | Energy, work and power | 能量、做功与功率 |
-| 1.8 | Pressure | 压力 |
+| No. | Content | Chinese | Tier |
+|-----|---------|---------|------|
+| 1.1 | Physical quantities and measurement techniques | 物理量与测量技术 | Core + Supplement |
+| 1.2 | Motion | 运动 | Core + Supplement |
+| 1.3 | Mass and weight | 质量与重量 | Core + Supplement |
+| 1.4 | Density | 密度 | Core + Supplement |
+| 1.5 | Forces | 力的作用 | Core + Supplement |
+| 1.5.1 | Effects of forces | 力的效果 | Core + Supplement |
+| 1.5.2 | Turning effect of forces | 力矩 | Core + Supplement |
+| 1.5.3 | Centre of gravity | 重心 | Core |
+| 1.6 | Momentum | 动量 | **Supplement** |
+| 1.7 | Energy, work and power | 能量、做功与功率 | Core + Supplement |
+| 1.7.1 | Energy | 能量 | Core + Supplement |
+| 1.7.2 | Work | 功 | Core |
+| 1.7.3 | Energy resources | 能源资源 | Core + Supplement |
+| 1.7.4 | Power | 功率 | Core |
+| 1.8 | Pressure | 压力 | Core + Supplement |
 
-Extended candidates (Paper 4) must also master the extended parts of 1.2, 1.6 and 1.7, including gradient/area under speed‑time graphs, conservation of momentum, and power calculations.
-
----
-
-## Part 2: Single Examination Points (Topic by Topic)
-
-### 1.1 Physical Quantities and Measurement Techniques
-
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Measuring instruments | ruler, measuring cylinder, micrometer screw gauge, stopwatch | choose correct instrument | describe reading method |
-| Volume measurement | water displacement, irregular solids | calculate volume of irregular solid | design experiment |
-| Time measurement | pendulum, oscillation, period | calculate period | analyse experimental data |
-
-**Answer key**:
-
-- **Length measurement**:
-  - Ruler: measures from 1 mm to 1 m, reads to 0.1 cm.
-  - **Micrometer screw gauge**: used for very small objects (<1 mm), precision 0.01 mm.
-  - **Vernier caliper**: also measures small lengths (precision 0.1 mm or 0.02 mm), different from micrometer.
-- **Volume measurement**:
-  - Regular solid: `V = length × width × height`
-  - Irregular solid: **water displacement** – submerge object in a measuring cylinder filled with water; the rise in water level equals the object’s volume.
-  - When reading a measuring cylinder, eyes must be level with the bottom of the meniscus.
-- **Time measurement**:
-  - Use a digital stopwatch.
-  - For a pendulum, measure the total time for many oscillations (e.g., 10) and then divide by the number, to reduce error.
-
-**Common trap**: Paper 2 may ask “which instrument is most suitable?” – remember: water displacement + cylinder for irregular solids; micrometer for very fine wires; stopwatch for pendulum period (measure multiple swings).
+> Memory hook: **measurement → motion → mass/weight → density → forces → momentum → energy → pressure**.
 
 ---
 
-### 1.2 Motion
+## Part 2: Knowledge Points
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Scalars & vectors | scalar (magnitude only), vector (magnitude + direction) | distinguish | explain why velocity is a vector |
-| Basic quantities | speed, velocity, acceleration, distance, displacement | definitions, simple calculations | apply formulas |
-| Graphs | distance‑time, speed‑time | identify rest, constant speed, acceleration, deceleration from shape | calculate distance, acceleration from graph |
-| Equations of motion (Extended) | v = u + at, s = ut + ½at², v² = u² + 2as | recognise formulas | calculate unknowns |
-| Free fall | free fall, g = 9.8 m/s², terminal velocity | define free fall, explain terminal velocity | describe stages of fall |
+### 1.1 Physical Quantities and Measurement Techniques (Core + Supplement)
 
-**Answer key**:
+**Core**
+- Use **rulers** and **measuring cylinders** to find a length or volume.
+  - Read a measuring cylinder with the eye level with the **bottom of the meniscus**.
+- Use **clocks and digital timers** to measure a variety of time intervals.
+- Determine an average value for a small distance or short interval by **measuring multiples**, including the **period of a pendulum**:
+  - measure the total time t for n complete oscillations; `T = t/n`.
 
-- **Scalar vs Vector**:
-  - **Scalar**: has magnitude only – distance, speed, mass, energy, time.
-  - **Vector**: has magnitude and direction – displacement, velocity, acceleration, force, momentum.
-- **Definitions**:
-  - **Speed (scalar)**: distance travelled per unit time. `v = s / t`
-  - **Velocity (vector)**: displacement per unit time. `v = Δs / Δt`
-  - **Acceleration**: rate of change of velocity. `a = Δv / Δt` (unit: m/s²)
-    - Positive a → speeding up; negative a → decelerating.
-- **Distance‑time graph**:
-  - Horizontal line → stationary (v = 0)
-  - Straight sloping line → constant speed (v = slope)
-  - Upward curve → acceleration (slope increasing)
-- **Speed‑time graph**:
-  - Horizontal line → constant speed (a = 0)
-  - Straight sloping line → constant acceleration (a = slope)
-  - **Slope** = acceleration (`a = Δv / Δt`)
-  - **Area under the graph** = distance travelled.
-  - Negative slope → deceleration.
-- **Free fall**:
-  - Object moving under gravity alone (no other forces). Near Earth’s surface, acceleration g ≈ 9.8 m/s².
-  - **Terminal velocity**: when air resistance equals weight, net force = 0, speed stops increasing.
-  - Stages: released → accelerates (weight > drag) → drag increases with speed → drag = weight → constant speed (terminal velocity).
-- **Equations of motion (Extended)** – for uniformly accelerated linear motion:
-  1. `v = u + a t`
-  2. `s = u t + ½ a t²`
-  3. `v² = u² + 2 a s`
-  - u = initial velocity, v = final velocity, a = acceleration, t = time, s = displacement.
+**Supplement**
+- **Scalars** have magnitude only; **vectors** have magnitude and direction.
+- Scalars: **distance, speed, time, mass, energy, temperature**.
+- Vectors: **force, weight, velocity, acceleration, momentum, electric field strength, gravitational field strength**.
+- Determine the **resultant of two vectors at right angles**, by calculation or graphically, **limited to forces or velocities only** (syllabus 1.1 Supplement 7; Extended only):
+  - magnitude: `R = √(F₁² + F₂²)`;
+  - direction: `tan θ = F₂ / F₁` (relative to F₁);
+  - **Past-paper example (0625/42 Feb/March 2023 Q1)**: a boat crosses at 3.5 m/s while a current of 2.5 m/s flows at right angles; `R = √(3.5² + 2.5²) ≈ 4.3 m/s`, and `tan θ = 3.5/2.5` → θ ≈ 54° to the bank.
 
-**Common traps**:
-- Distance (scalar) vs displacement (vector): e.g., circular motion – distance can be large but displacement may be zero.
-- Speed (scalar) vs velocity (vector): constant speed in a circle means velocity is changing (direction).
-- Acceleration and “speeding up” are not the same; deceleration is still acceleration (negative).
-- On a speed‑time graph, the area is **distance** (not displacement).
+**Common traps**
+- Micrometer screw gauge and vernier caliper are **not part of 0625 2026–2028**; do not memorise their names or precisions.
+- Temperature is a **scalar**; weight, electric field strength and gravitational field strength are **vectors**.
+- Average speed = **total distance ÷ total time**, not the average of several speeds.
+- Count **complete oscillations** for a pendulum, not a half-swing.
 
 ---
 
-### 1.3 Mass and Weight
+### 1.2 Motion (Core + Supplement)
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Mass vs weight | mass (kg, constant), weight (N, force), W = mg | distinguish, simple calculation | explain why weight changes on Moon |
-| Gravitational field strength | g = 9.8 N/kg | define g, simple calculations | solve with W = mg |
+**Core**
+- **Speed**: distance travelled per unit time, `v = s / t`.
+- **Velocity**: speed in a given direction.
+- **Average speed**: `average speed = total distance travelled / total time taken`.
+- Sketch, plot and interpret **distance–time** and **speed–time** graphs:
+  - distance–time: horizontal line → at rest; straight line → constant speed; curve → accelerating/decelerating;
+  - speed–time: horizontal line → constant speed; straight line → constant acceleration/deceleration; curve → changing acceleration.
+- Calculate speed from the **gradient** of a straight section of a distance–time graph.
+- Calculate distance from the **area under** a speed–time graph (for constant speed or constant acceleration).
+- The acceleration of free fall `g` near the Earth's surface is approximately constant, about **9.8 m/s²**.
 
-**Answer key**:
+**Supplement**
+- **Acceleration**: rate of change of velocity, `a = Δv / Δt`.
+- Determine from data or the shape of a speed–time graph whether acceleration is **constant** or **changing**.
+- Calculate acceleration from the **gradient** of a speed–time graph.
+- **Deceleration** is negative acceleration; use it in calculations.
+- Describe motion in a gravitational field **with and without air/liquid resistance**, including **terminal velocity**:
+  - weight > drag → acceleration; drag increases with speed;
+  - weight = drag → resultant force zero → constant velocity (terminal velocity).
 
-- **Mass**: amount of matter in an object (unit kg). It is a scalar, does not change with location.
-- **Weight**: gravitational force on an object (unit N). It is a vector, direction towards centre of Earth.
-- Relationship: `W = m × g`, where g ≈ 9.8 N/kg near Earth’s surface (also equal to acceleration of free fall).
-- Measurement: mass – balance (digital or lever); weight – spring balance / newton meter.
-
-**Common trap**: When comparing mass and weight, remember: mass is scalar, weight is vector; mass measured with a balance, weight with a spring balance; mass is constant, weight varies with g.
-
----
-
-### 1.4 Density
-
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Definition | density, ρ = m/V, units kg/m³ or g/cm³ | calculate simple density | explain why objects float |
-| Measurement | regular solid, irregular solid, liquid | identify required measurements | design experiment |
-| Floating condition | float if ρ_object < ρ_fluid | decide if object sinks/floats | explain hydrometer |
-
-**Answer key**:
-
-- **Density**: mass per unit volume. `ρ = m / V`, unit kg/m³ or g/cm³.
-- **Regular solid**: measure mass (balance), measure dimensions (ruler), calculate volume, then ρ.
-- **Irregular solid**: measure mass; find volume by **water displacement** (measuring cylinder). Then ρ = m/V.
-- **Liquid**: measure mass of empty beaker; add liquid, measure total mass; liquid mass = total – empty; measure volume of liquid with measuring cylinder; then ρ = m/V.
-- **Floating/sinking** (compare densities):
-  - ρ_object < ρ_fluid → floats
-  - ρ_object = ρ_fluid → suspended
-  - ρ_object > ρ_fluid → sinks
-
-**Common trap**: When given four solids with different masses and volumes, to find the densest you must calculate ρ = m/V, do not rely on mass or volume alone.
+**Common traps**
+- **Distance vs displacement**: distance is a scalar; displacement is a vector (straight line from start to finish, with direction).
+- **Speed vs velocity**: in uniform circular motion the speed is constant but the direction changes, so the velocity changes.
+- Gradient of distance–time = speed; gradient of speed–time = acceleration; area under speed–time = **distance**.
+- 0625 does **not** require `v = u + at`, `s = ut + ½at²` or `v² = u² + 2as`.
+- At terminal velocity the **resultant force is zero** and the velocity is constant, not the acceleration maximum.
+- Deceleration means acceleration opposite to velocity; you do not have to write "negative acceleration".
 
 ---
 
-### 1.5 Forces
+### 1.3 Mass and Weight (Core + Supplement)
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Effects of forces | change shape, change motion, change direction | identify effect | give examples |
-| Resultant force | resultant, net force | calculate along a line | calculate and explain motion |
-| Hooke’s law | Hooke’s law, extension ∝ force, spring constant | judge from data | calculate k, draw F‑e graph |
-| Newton’s second law | F = ma | recognise formula, simple calc | calculate acceleration or force |
-| Newton’s first law | inertia, constant velocity if net force = 0 | explain why object stays still or moves uniformly | describe inertia |
-| Moment (Extended) | moment, torque, M = F × d, pivot, equilibrium | calculate moment | explain lever balance |
-| Centre of gravity | centre of gravity | define | judge stability |
+**Core**
+- **Mass**: the quantity of matter in an object at rest relative to the observer; unit kg.
+- **Weight**: the gravitational force acting on an object with mass; unit N, directed vertically downwards.
+- **Gravitational field strength**: `g = W / m`, unit **N/kg**; it is equivalent to the **acceleration of free fall** (m/s²).
+- Balances can be used to compare masses/weights.
 
-**Answer key**:
+**Supplement**
+- Understand weight as the **effect of a gravitational field on a mass**.
 
-- **Effects of forces**:
-  1. change shape (e.g., stretch a spring)
-  2. change speed (accelerate or decelerate)
-  3. change direction of motion.
-- **Resultant force**: vector sum of all forces on an object.
-  - On a straight line: add if same direction, subtract if opposite.
-  - Newton’s second law: `F_net = m × a`.
-- **Newton’s first law**: An object remains at rest or moves at constant speed in a straight line unless acted upon by a resultant force. This property is called **inertia** – larger mass → larger inertia.
-- **Hooke’s law (Extended)**: Within the limit of proportionality, the extension of a spring is directly proportional to the applied force. `F = k × x`, where:
-  - F = force (N)
-  - x = extension = stretched length – original length (m or cm)
-  - k = spring constant (N/m or N/cm)
-  - F‑x graph is a straight line through the origin up to the limit of proportionality.
-- **Moment (Extended)**: turning effect of a force. `M = F × d`, where d is the **perpendicular distance** from the pivot to the line of action of the force. Unit: N·m.
-  - Equilibrium (no rotation): clockwise moments = anticlockwise moments.
-- **Centre of gravity**: the point where the weight of an object appears to act. For a uniform object, it is at the geometric centre.
-
-**Common traps**:
-- Hooke’s law: x is **extension**, not total length.
-- Moment: d is the **perpendicular distance** to the line of action, not the direct distance.
-- In `F = ma`, F is the **resultant force**, not just one force. You must compute net force first.
+**Common traps**
+- Mass is a **scalar** and does not change with position; weight is a **vector** and changes with g.
+- `g = 9.8 N/kg = 9.8 m/s²`; the two units are equivalent.
+- A balance measures mass; a spring balance measures weight.
 
 ---
 
-### 1.6 Momentum (Extended)
+### 1.4 Density (Core + Supplement)
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Definition | momentum, p = mv, unit kg·m/s | calculate momentum | define and calculate |
-| Conservation | total momentum before = total momentum after | state condition | solve collision problems |
-| Impulse | impulse, FΔt = Δp | define impulse | calculate force or time |
+**Core**
+- **Density**: mass per unit volume, `ρ = m / V`; units kg/m³ or g/cm³.
+- Determine density:
+  - **liquid**: mass with a balance, volume with a measuring cylinder;
+  - **regular solid**: mass with a balance, dimensions with a ruler;
+  - **irregular solid that sinks**: mass with a balance, volume by **displacement**.
+- Use density data to determine whether an object **floats**:
+  - `ρ_object < ρ_fluid` → floats;
+  - `ρ_object = ρ_fluid` → suspended;
+  - `ρ_object > ρ_fluid` → sinks.
 
-**Answer key**:
+**Supplement**
+- Use density data to determine whether **one liquid floats on another** (liquids that do not mix).
 
-- **Momentum** `p = m × v` (vector, direction same as velocity).
-- **Principle of conservation of momentum**: In a closed system (no external forces), total momentum before an interaction = total momentum after.
-- **Rocket propulsion**: Exhaust gases gain downward momentum; by conservation, the rocket gains an equal upward momentum.
-- **Impulse**: `F × Δt = Δp = m × Δv`
+**Common traps**
+- `1 g/cm³ = 1000 kg/m³`.
+- Displacement works for an irregular solid that **sinks**; a floating object cannot be measured directly this way.
+- Compare density using both mass and volume.
+- For immiscible liquids, the less dense liquid forms the upper layer.
 
-**Common trap**: In exam questions, when asked to explain why a rocket accelerates upwards, the key phrase is: “The exhaust gases are given a downward momentum, therefore the rocket gains an equal upward momentum.”
+---
+
+### 1.5 Forces (Core + Supplement)
+
+#### 1.5.1 Effects of Forces (Core + Supplement)
+
+**Core**
+- Forces may produce changes in the **size and shape** of an object.
+- Sketch, plot and interpret **load–extension graphs** for an elastic solid; describe the experimental procedure.
+- Determine the **resultant** of two or more forces acting along the same straight line.
+- **Newton's first law**: an object remains at rest or continues at constant speed in a straight line unless acted on by a resultant force.
+- A resultant force may change an object's **speed** or **direction of motion**.
+- **Solid friction**: the force between surfaces that may impede motion and produce heating.
+- **Drag**: friction on an object moving through a liquid or a gas (e.g. air resistance).
+
+**Supplement**
+- **Spring constant**: `k = F / x`, unit N/m.
+- **Limit of proportionality**: the point beyond which the load–extension graph is no longer a straight line; identify it on a graph.
+  - The syllabus states that **elastic limit is not required**.
+- **Newton's second law**: `F = m a`, with force and acceleration in the same direction.
+- **Circular motion (qualitative)**:
+  - for constant mass and radius, a larger force gives a larger speed;
+  - for constant mass and speed, a larger force gives a smaller radius;
+  - for constant speed and radius, a larger mass requires a larger force;
+  - `F = mv²/r` is **not required**.
+
+**Common traps**
+- Hooke's law uses the **extension x** (current length − original length), not the total length.
+- Limit of proportionality is not the elastic limit; **elastic limit is not examined**.
+- In `F = ma`, F is the **resultant** force; find the resultant first.
+- Friction/drag acts opposite to the **relative motion**.
+- For circular motion the force is **towards the centre**, perpendicular to the motion.
+
+#### 1.5.2 Turning Effect of Forces (Core + Supplement)
+
+**Core**
+- The **moment** of a force is a measure of its turning effect; `moment = force × perpendicular distance from the pivot`.
+- **Principle of moments**: with one force on each side of the pivot, the sum of clockwise moments equals the sum of anticlockwise moments (e.g. a balanced beam).
+- **Equilibrium**: no resultant force and no resultant moment.
+
+**Supplement**
+- Apply the principle of moments with **more than one force on each side** of the pivot.
+- Describe an experiment demonstrating that there is **no resultant moment** on an object in equilibrium.
+
+**Common traps**
+- `d` is the **perpendicular** distance from the pivot to the line of action of the force.
+- The unit of moment is N·m, not J.
+- Equilibrium requires **both** zero resultant force and zero resultant moment.
+
+#### 1.5.3 Centre of Gravity (Core)
+
+- **Centre of gravity**: the point through which the weight of an object acts.
+- Experiment: use a **plumb line** to find the centre of gravity of an irregular plane lamina.
+- **Stability**: a lower centre of gravity and a wider base make an object more stable.
+
+**Common traps**
+- For a uniform regular object, the centre of gravity is at its **geometric centre**.
+- The centre of gravity can lie outside the object (e.g. a ring).
+
+---
+
+### 1.6 Momentum (Supplement only)
+
+> The whole of 1.6 is Supplement; Core candidates do not study it.
+
+- **Momentum**: `p = m v`, unit kg·m/s; a vector in the direction of velocity.
+- **Impulse**: `F Δt = Δp = m v − m u`.
+- **Conservation of momentum**: in a closed system (no external resultant force), total momentum before a collision equals total momentum after; used in one dimension.
+- **Resultant force = rate of change of momentum**: `F = Δp / Δt`.
+
+**Common traps**
+- Momentum is a vector; choose a positive direction and give reversed velocities a negative sign.
+- State that the system has **no external resultant force**.
+- Momentum is conserved in explosions/recoil, but kinetic energy is not necessarily conserved.
+- Impulse is force × time, not force × distance.
 
 ---
 
 ### 1.7 Energy, Work and Power
 
-#### 1.7.1 Energy stores and conservation
+#### 1.7.1 Energy (Core + Supplement)
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Forms of energy | kinetic (E_k), gravitational potential (E_p), chemical, elastic, nuclear, thermal (internal) | identify forms | describe energy transfers |
-| Conservation | energy cannot be created/destroyed, only transferred | recognise application | explain how energy is transferred |
-| Work done | work done W = F × d (J) | calculate work done | relate work to energy transfer |
-| Power | power P = E / t (W) | simple calculation | compare powers |
-| Efficiency | efficiency = useful output / total input × 100% | recall formula | calculate efficiency |
+**Core**
+- Energy may be stored as: **kinetic, gravitational potential, chemical, elastic strain, nuclear, electrostatic and internal (thermal)**.
+- Describe energy transfers between stores during events/processes, including transfer by:
+  - **forces/mechanical work**;
+  - **electrical current/electrical work**;
+  - **heating**;
+  - **electromagnetic, sound and other waves**.
+- **Conservation of energy**: energy cannot be created or destroyed, only transferred/converted; interpret simple flow diagrams.
 
-**Answer key**:
+**Supplement**
+- `KE = ½ m v²`.
+- Change in gravitational potential energy: `ΔGPE = m g Δh`.
+- Apply conservation of energy to **complex multi-stage processes**, including **Sankey diagrams**.
 
-- **Energy stores**:
-  - **Kinetic energy** `E_k = ½ m v²`
-  - **Gravitational potential energy** `ΔE_p = m g Δh`
-  - Chemical, elastic, nuclear, thermal (internal).
-- **Conservation of energy**: Energy cannot be created or destroyed, only transferred from one store to another or from one object to another.
-  - Example: burning fuel – chemical → thermal and light.
-  - Hydroelectric – gravitational potential → kinetic → electrical.
-- **Work done**: `W = F × d` (unit J, 1 J = 1 N·m). Work done = energy transferred.
-- **Power**: `P = W / t = E / t` (unit W, 1 W = 1 J/s). Power is the rate of doing work (or transferring energy).
+**Common traps**
+- Distinguish **energy stores** from **energy transfers**; energy is not a force.
+- Energy is not "used up"; it is transferred to the surroundings.
+- Doubling speed makes kinetic energy **four times** larger.
+- Use the **change in height Δh** for GPE.
+
+#### 1.7.2 Work (Core)
+
+- Mechanical or electrical work done = energy transferred.
+- `W = F d = ΔE`, where d is the distance moved in the direction of the force.
+
+**Common traps**
+- No work is done when force and displacement are **perpendicular** (e.g. carrying a box horizontally).
+- The unit of work is J, not N or W.
+- Work done against friction increases internal energy.
+
+#### 1.7.3 Energy Resources (Core + Supplement)
+
+**Core**
+- Describe how useful energy or electrical power is obtained from:
+  - **fossil fuels** (chemical energy);
+  - **biofuels** (chemical energy);
+  - **water**: waves, tides, hydroelectric dams;
+  - **geothermal** resources;
+  - **nuclear fuel**;
+  - **light from the Sun → solar cells**;
+  - **infrared/other electromagnetic waves from the Sun → solar panels** to heat water;
+  - **wind** (ultimately driven by the Sun);
+  - refer to the boiler, turbine and generator where used.
+- Compare advantages/disadvantages in terms of **renewability, availability, reliability, scale and environmental impact**.
+- Understand **efficiency** qualitatively.
+
+**Supplement**
+- Radiation from the Sun is the main source of energy for all resources **except geothermal, nuclear and tidal**.
+- Energy is released by **nuclear fusion in the Sun**.
+- Research is being carried out into large-scale electricity generation from fusion.
 - **Efficiency**:
-  - `efficiency (%) = (useful energy output) / (total energy input) × 100%`
-  - No machine is 100% efficient; some energy is always “wasted” as thermal energy.
+  - `% efficiency = useful energy output / total energy input × 100%`;
+  - `% efficiency = useful power output / total power input × 100%`.
 
-**Common traps**:
-- In `E_k = ½ m v²`, doubling speed quadruples the kinetic energy.
-- Power formula in IGCSE is always `P = E / t`; the instantaneous formula `P = F v` is **not** required.
-- When calculating efficiency, ensure units of numerator and denominator are the same (both in joules).
-- Energy transfer descriptions must specify the **initial** and **final** stores, e.g., “gravitational potential energy → kinetic energy”.
+**Common traps**
+- **Solar cells** generate electricity directly; **solar panels** heat water.
+- Renewable does not mean reliable (wind and solar are intermittent).
+- Efficiency is always less than 100%; "wasted" energy usually becomes internal energy.
+- Nuclear, geothermal and tidal are **not** from the Sun (according to the syllabus).
 
-#### 1.7.2 Energy resources (Core)
+#### 1.7.4 Power (Core)
 
-The syllabus requires describing how useful energy is obtained from various sources, and their advantages/disadvantages.
+- **Power**: work done per unit time, or energy transferred per unit time.
+- `P = W / t = E / t`, unit W (J/s).
 
-| Source | How it works | Advantages | Disadvantages |
-|--------|--------------|------------|----------------|
-| Fossil fuels (coal, oil, gas) | Burned → heat → steam → turbine → generator | High energy density, reliable, existing infrastructure | Non‑renewable, CO₂ (greenhouse effect), SO₂ (acid rain), pollution |
-| Biofuels | Burn plant/animal waste (ethanol, biodiesel) | Renewable (can be grown), carbon‑neutral (plants absorb CO₂) | Low energy density, uses land that could grow food |
-| Hydroelectric | Water stored behind dam, released → turbine | Renewable, no pollution, fast response, flood control | Floods large areas, destroys habitats, high initial cost, limited to suitable geography |
-| Tidal / wave | Movement of tides/waves drives turbine | Renewable, predictable (tides), no CO₂ | Corrosion, disrupts marine life, limited locations, high cost |
-| Geothermal | Heat from underground steam/hot water → turbine | Renewable, very stable (24/7), small land footprint | Only in volcanic/geothermal areas, may release harmful gases |
-| Nuclear | Nuclear fission (uranium) heats water → steam → turbine | Extremely high energy density, no CO₂, low fuel cost | Radioactive waste, risk of meltdown, high construction cost, public concern |
-| Solar (PV cells) | Sunlight directly converted to electricity | Renewable, silent, no moving parts, can be distributed | Intermittent (night/clouds), low efficiency, large land area needed, battery storage costly |
-| Wind | Wind turns turbine blades → generator | Renewable, no pollution, low operating cost | Intermittent (no wind), noise, kills birds, needs large open area (onshore) or deep sea (offshore) |
-
-**Key understanding**: Apart from geothermal, nuclear and (partly) tidal, all energy resources originate from the **Sun** (solar energy drives wind, water cycle, plant growth, and fossil fuel formation).
-
-**Choice of energy source depends on**: renewability, availability, reliability (intermittency), scale, environmental impact, and economic cost.
+**Common traps**
+- A larger power means energy is transferred faster, not that more work is done overall.
+- 1 W = 1 J/s.
 
 ---
 
-### 1.8 Pressure
+### 1.8 Pressure (Core + Supplement)
 
-| Key point | Keywords | Paper 2 | Paper 4 |
-|-----------|----------|---------|---------|
-| Pressure definition | pressure, P = F/A, units Pa or N/m² | recognise formula, simple calc | explain why knife is sharp |
-| Liquid pressure | P = ρ g h | recognise formula | explain submarine wall thickness |
-| Gas pressure | atmospheric, manometer, barometer | identify units | explain pressure change with altitude |
+**Core**
+- **Pressure**: force per unit area, `P = F / A`, unit Pa (N/m²).
+- Describe how pressure varies with force and area in everyday examples (e.g. knife edge, pin).
+- Describe qualitatively how pressure beneath the surface of a liquid changes with **depth** and **density**.
 
-**Answer key**:
+**Supplement**
+- Change in pressure beneath a liquid surface: `Δp = ρ g Δh`.
 
-- **Pressure**: `P = F / A` (unit: pascal, Pa = N/m²)
-  - Pressure ∝ force; pressure ∝ 1/area.
-  - Sharp knife: small area → large pressure → easy cutting.
-- **Liquid pressure (Extended)**: `P = ρ g h`
-  - Increases with depth; increases with density of liquid.
-  - Acts equally in all directions (Pascal’s principle).
-- **Atmospheric pressure**: caused by weight of air above.
-  - Standard ≈ **1.01 × 10⁵ Pa** (100 kPa).
-  - Measured with barometer; manometer measures pressure difference.
-  - Decreases with altitude (less air above).
-
-**Common trap**: When the same object is placed on a table in different orientations, the force (weight) is the same, but the pressure changes because the contact area changes.
+**Common traps**
+- Pressure is not weight; F is the force **perpendicular** to the area.
+- Liquid pressure depends only on depth and density, not on the shape of the container or the total volume.
+- In `Δp = ρgΔh`, h is the **change in depth**.
+- Atmospheric pressure, barometers and manometers are **not in the current 1.8**.
 
 ---
 
@@ -291,7 +326,7 @@ The syllabus requires describing how useful energy is obtained from various sour
 - **Distance vs displacement**: distance is the total "number of footsteps"; displacement is the straight arrow from start to finish. One lap of a 400 m track: distance 400 m, displacement 0.
 - **Speed vs velocity**: speed only says "how fast"; velocity also says "which way". In uniform circular motion the speed is constant but the direction changes, so the velocity changes.
 - **d–t vs v–t graphs**: the gradient of a distance–time graph is speed; the gradient of a speed–time graph is acceleration, and the area under it is distance. Check the axes first.
-- **Acceleration direction ≠ motion direction**: when braking, the velocity is forward but the acceleration is backward; deceleration means acceleration opposite to velocity, not simply "negative acceleration".
+- **Acceleration direction ≠ motion direction**: when braking, the velocity is forward but the acceleration is backward; deceleration means acceleration opposite to velocity.
 - **Free fall and terminal velocity**: gravity pulls down, air resistance pushes up; as speed rises, drag increases. When they are equal, the resultant force is zero → constant velocity.
 - **Mass vs weight**: mass is "how much stuff" (kg); weight is "how hard gravity pulls" (N). On the Moon, mass is unchanged but weight is smaller.
 - **Density**: how much mass is packed into a unit volume; the displacement method is "how much water the object pushes aside".
@@ -305,71 +340,122 @@ The syllabus requires describing how useful energy is obtained from various sour
 
 > Figure: carrying the box horizontally – force is perpendicular to displacement, so W = 0; lifting it – force and displacement are in the same direction, so W = Fd.
 
-## Part 3: Quick Overview of Topic Frequencies
+---
 
-| Sub‑topic | Keywords | Paper 2 frequency | Paper 4 frequency |
-|-----------|----------|-------------------|-------------------|
-| 1.1 Length & time | ruler, micrometer (not vernier caliper), stopwatch, displacement | ★★★ | ★★ |
-| 1.2 Motion | speed, velocity, acceleration, scalar, vector, graphs, terminal velocity | ★★★★★ | ★★★★★ |
-| 1.3 Mass & weight | mass, weight, W = mg, g | ★★★ | ★★★ |
-| 1.4 Density | ρ = m/V, displacement | ★★★ | ★★★ |
-| 1.5 Forces | resultant force, F = ma, Hooke’s law, spring constant, moment, centre of gravity | ★★★★★ | ★★★★★ |
-| 1.6 Momentum (Extended) | p = mv, conservation, impulse | ★★★ | ★★★ |
-| 1.7 Energy, work, power | E_k, E_p, W = Fd, P = E/t, efficiency, energy resources | ★★★★★ | ★★★★★ |
-| 1.8 Pressure | P = F/A, P = ρgh, atmospheric pressure | ★★★ | ★★★ |
+## Part 3: Equations and Constants
+
+| Quantity | Equation | Unit | Tier/condition |
+|---|---|---|---|
+| Speed | `v = s / t` | m/s | Core |
+| Average speed | `average speed = total distance / total time` | m/s | Core |
+| Acceleration | `a = Δv / Δt` | m/s² | Supplement |
+| Free-fall acceleration | `g ≈ 9.8 m/s²` | m/s² | Core |
+| Weight | `W = m g`; `g = W/m` | N, N/kg | Core |
+| Density | `ρ = m / V` | kg/m³ | Core |
+| Spring constant | `k = F / x` | N/m | Supplement |
+| Newton's second law | `F = m a` | N | Supplement |
+| Moment | `moment = F × d⊥` | N·m | Core |
+| Momentum | `p = m v` | kg·m/s | Supplement |
+| Impulse | `F Δt = Δp = m v − m u` | N·s | Supplement |
+| Force and momentum | `F = Δp / Δt` | N | Supplement |
+| Kinetic energy | `KE = ½ m v²` | J | Supplement |
+| Change in GPE | `ΔGPE = m g Δh` | J | Supplement |
+| Work | `W = F d = ΔE` | J | Core |
+| Power | `P = W / t = E / t` | W | Core |
+| Efficiency | `useful output / total input × 100%` | % | Supplement |
+| Pressure | `P = F / A` | Pa | Core |
+| Change in liquid pressure | `Δp = ρ g Δh` | Pa | Supplement |
+| Resultant of two perpendicular vectors | `R = √(F₁² + F₂²)` | — | Supplement (forces or velocities only) |
 
 ---
 
-## Part 4: Keyword Glossary
+## Part 4: Common Traps
+
+| Wrong statement | Correct understanding |
+|---|---|
+| A micrometer screw gauge is required in 1.1 | 0625 2026–2028 does **not** require micrometer or vernier |
+| Area under speed–time graph = displacement | Area = **distance** (speed–time graph has no direction) |
+| Horizontal line on a distance–time graph = constant speed | Horizontal line = **at rest** |
+| Uniform circular motion has constant velocity | Speed is constant but **direction changes** → velocity changes |
+| Mass is smaller on the Moon | Mass is unchanged; **weight** is smaller |
+| 1 g/cm³ = 100 kg/m³ | 1 g/cm³ = **1000 kg/m³** |
+| Spring length is proportional to force | **Extension** is proportional to force |
+| Moment = force × distance from pivot to force | Force × **perpendicular** distance to the line of action |
+| Moments are Extended | Moments are **1.5.2 Core**; multi-force cases are Supplement |
+| F in F = ma is the applied force | F is the **resultant** force |
+| At terminal velocity acceleration is maximum | Acceleration is **zero**; speed is maximum and constant |
+| Momentum conservation ignores direction | It is a vector; choose a **positive direction** |
+| Efficiency can reach 100% | Always less than 100% |
+| Deeper water has higher pressure because there is more water | Only because **depth h** is greater (not total volume) |
+| Atmospheric pressure is in 1.8 | The current 1.8 does **not** include atmospheric pressure/barometers/manometers |
+
+---
+
+## Part 5: Paper 4 Answer Templates
+
+- **Average speed**: Average speed is the total distance travelled divided by the total time taken.
+- **Speed vs velocity**: Velocity is speed in a given direction; speed is a scalar.
+- **Distance–time graph**: The gradient of a distance–time graph gives the speed; a horizontal line means the object is at rest.
+- **Speed–time graph**: The gradient gives the acceleration; the area under the graph gives the distance travelled.
+- **Terminal velocity**: Initially weight is greater than air resistance, so the object accelerates. As speed increases, air resistance increases until it equals the weight; the resultant force is then zero, so the object falls at a constant terminal velocity.
+- **Newton's second law**: The resultant force on an object is directly proportional to its acceleration and acts in the same direction: `F = ma`.
+- **Hooke's law/limit of proportionality**: The extension is directly proportional to the load, provided the limit of proportionality is not exceeded.
+- **Moments**: The moment of a force is the force multiplied by the perpendicular distance from the pivot. In equilibrium, the sum of clockwise moments equals the sum of anticlockwise moments.
+- **Conservation of momentum**: In a closed system with no external resultant force, the total momentum before a collision equals the total momentum after it.
+- **Conservation of energy**: Energy cannot be created or destroyed, only transferred between stores; state the stores involved explicitly.
+- **Efficiency**: Efficiency = useful energy output ÷ total energy input × 100% (or the power version).
+- **Liquid pressure**: The change in pressure beneath a liquid surface is `Δp = ρgΔh`, where h is the change in depth.
+
+---
+
+## Part 6: Keyword Glossary
 
 | Keyword | Definition |
-|---------|------------|
-| **Scalar** | quantity with magnitude only (e.g., distance, speed, mass, energy, time) |
-| **Vector** | quantity with magnitude and direction (e.g., displacement, velocity, acceleration, force, momentum) |
-| **Speed** | distance travelled per unit time (scalar) |
-| **Velocity** | displacement per unit time (vector) |
-| **Acceleration** | rate of change of velocity, `a = Δv/Δt` (vector) |
-| **Deceleration** | negative acceleration |
-| **Terminal velocity** | constant velocity reached when air resistance equals weight |
-| **Mass** | amount of matter in an object (kg), scalar, constant |
-| **Weight** | gravitational force on an object (N), vector, `W = mg` |
-| **Gravitational field strength (g)** | force per unit mass, `g = W/m`, ≈ 9.8 N/kg near Earth’s surface |
-| **Density** | mass per unit volume, `ρ = m/V` |
-| **Resultant force** | vector sum of all forces acting on an object |
-| **Hooke’s law** | extension ∝ force (within limit of proportionality), `F = kx` |
-| **Spring constant (k)** | stiffness of a spring, `k = F/x` |
-| **Moment** | turning effect of a force, `M = F × d` (perpendicular distance) |
-| **Centre of gravity** | point where weight appears to act |
-| **Momentum** | `p = m v` (vector) |
-| **Conservation of momentum** | total momentum constant if no external forces |
+|---|---|
+| **Scalar** | a quantity with magnitude only |
+| **Vector** | a quantity with magnitude and direction |
+| **Speed** | distance travelled per unit time |
+| **Velocity** | speed in a given direction |
+| **Average speed** | total distance ÷ total time |
+| **Acceleration** | rate of change of velocity, `a = Δv/Δt` |
+| **Deceleration** | negative acceleration (opposite to velocity) |
+| **Terminal velocity** | constant maximum velocity when the resultant force is zero |
+| **Mass** | quantity of matter, kg, scalar |
+| **Weight** | gravitational force, N, vector |
+| **Gravitational field strength** | `g = W/m`, N/kg; equals free-fall acceleration |
+| **Density** | `ρ = m/V` |
+| **Resultant force** | vector sum of all forces |
+| **Friction / drag** | force opposing relative motion |
+| **Spring constant** | `k = F/x` |
+| **Limit of proportionality** | point beyond which load–extension is no longer linear |
+| **Moment** | `F × perpendicular distance`, N·m |
+| **Centre of gravity** | point through which weight acts |
+| **Momentum** | `p = mv`, vector |
 | **Impulse** | `FΔt = Δp` |
-| **Kinetic energy (E_k)** | energy of motion, `E_k = ½ m v²` |
-| **Gravitational potential energy (E_p)** | energy due to height, `ΔE_p = m g Δh` |
-| **Work done** | energy transferred, `W = Fd` |
-| **Power** | rate of doing work or transferring energy, `P = E/t` |
-| **Efficiency** | (useful output / total input) × 100% |
-| **Pressure** | force per unit area, `P = F/A` |
-| **Liquid pressure** | `P = ρ g h` (Extended) |
-| **Atmospheric pressure** | pressure due to air; decreases with altitude |
+| **Conservation of momentum** | total momentum of a closed system is constant |
+| **Kinetic energy** | `KE = ½mv²` |
+| **Gravitational potential energy** | `ΔGPE = mgΔh` |
+| **Work done** | `W = Fd = ΔE` |
+| **Power** | `P = W/t = E/t` |
+| **Efficiency** | useful output / total input × 100% |
+| **Pressure** | `P = F/A` |
+| **Liquid pressure** | `Δp = ρgΔh` |
 
 ---
 
-## Part 5: Exam Tips
+## Part 7: Final Self-check
 
-### Paper 2 (Multiple Choice)
-- Know the scalar/vector list.
-- Interpreting motion graphs: slope = speed/acceleration, area under speed‑time = distance.
-- Density calculations: always use `ρ = m/V`.
-- Hooke’s law: remember that `x` is **extension**.
-- Power and efficiency: memorise formulas.
-
-### Paper 4 (Structured Questions)
-- Write the formula first, then substitute values with units.
-- For graph questions: “gradient” = rate of change; “area under graph” = distance.
-- Spring constant: `k = F/x`; judge linearity by checking if F‑x graph is a straight line through origin.
-- Energy transfer: always state “from __ to __” (e.g., from gravitational potential to kinetic).
-- Rocket propulsion: mention “momentum of exhaust gases downward, so rocket gains upward momentum”.
-
----
-
-> This document covers all of IGCSE Physics 0625 Topic 1. It uses plain text and Unicode, no LaTeX commands. All formulas are written as `v = s/t` etc.
+1. How do you use a ruler, measuring cylinder and timer? How is a pendulum period measured?
+2. What are scalars and vectors? How do you find the resultant of two perpendicular vectors?
+3. Can you define speed, velocity, average speed and acceleration and use their equations?
+4. What do the gradient and area represent on distance–time and speed–time graphs?
+5. Can you describe free fall and terminal velocity?
+6. What is the difference between mass and weight? How is `g = W/m` related to 9.8 m/s²?
+7. How is density measured for a liquid, a regular solid and an irregular solid? What are the floating/sinking conditions?
+8. What are the effects of forces, resultant force, Newton's first and second laws?
+9. What are Hooke's law, the limit of proportionality and the spring constant?
+10. What are moments, the principle of moments, equilibrium, centre of gravity and stability?
+11. What are momentum, impulse, conservation of momentum and `F = Δp/Δt`?
+12. What are energy stores/transfers, KE, GPE, work, power and efficiency?
+13. What are the advantages/disadvantages of energy resources? Why is the Sun the main source?
+14. How do you apply `P = F/A` and `Δp = ρgΔh`?

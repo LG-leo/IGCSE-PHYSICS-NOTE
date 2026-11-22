@@ -172,6 +172,7 @@ Sources:
 - **Gamma emission**: usually follows α/β decay as the nucleus drops from an excited state to a lower energy state:
   - **A and Z are unchanged.**
 - Use nuclide notation to write decay equations; **A and Z must be conserved**.
+- Effect on the nucleus: **α decay** reduces the number of nucleons; **β⁻ decay** changes a neutron into a proton and reduces the number of excess neutrons; **γ emission** lets the nucleus drop from an excited state to a lower energy state. All three make the nucleus **more stable**.
 
 **Common traps**
 - The β electron comes from a **neutron changing into a proton** in the nucleus, not from an orbiting electron.
